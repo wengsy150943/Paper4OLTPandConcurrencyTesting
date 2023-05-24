@@ -53,7 +53,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 ### Anomaly Detection
 
 -  [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570)   [SIGMOD 23] 
-- [Detecting Isolation Bugs via Transaction Oracle Construction]( https://doi.org/10.5281/zenodo.7645649 ) [[ICSE](https://github.com/criszy/Troc) 23]
+- [Detecting Isolation Bugs via Transaction Oracle Construction]( https://doi.org/10.5281/zenodo.7645649 ) [ [ICSE](https://github.com/criszy/Troc) 23]
 - [Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching](http://arxiv.org/abs/2201.02944) [ICSE 22]
 
 ### Benchmark
@@ -68,6 +68,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Race Directed Random Testing of Concurrent Programs]( https://dl.acm.org/doi/10.1145/1375581.1375584 ) [PLDI 08]
 - [Sound and Efficient Concurrency Bug Prediction](  https://dl.acm.org/doi/10.1145/3468264.3468549 ) [ESEC/FSE 21]
 - [How are distributed bugs diagnosed and fixed through system logs?](https://linkinghub.elsevier.com/retrieve/pii/S0950584919302496) [Information and Software Technology 20]
+- [Demystifying and Checking Silent Semantic Violations in Large Distributed Systems](https://www.usenix.org/system/files/osdi22-lou-demystifying.pdf) [OSDI 22]
+- [Automatic Reliability Testing for Cluster Management Controllers](https://www.usenix.org/system/files/osdi22-sun.pdf) [OSDI 22]
 
 ### Fuzzing
 
