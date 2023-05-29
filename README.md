@@ -42,6 +42,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 -  Polaris: Enabling Transaction Priority in Optimistic Concurrency Control [SIGMOD 23]
 - [Diva: Making MVCC Systems HTAP-Friendly]( https://doi.org/10.1145/3514221.3526135 ) [SIGMOD 22]
 - [Plor: General Transactions with Predictable, Low Tail Latency]( https://doi.org/10.1145/3514221.3517879 ) [SIGMOD 22]
+- [Strictly Serializable Timestamp Ordering by Avoiding the Timestamp-Inversion Pitfall](https://arxiv.org/abs/2305.14270) [OSDI 23]
+- Verifying vMVCC, a high-performance database using multi-version concurrency control [OSDI]
 
 ### Transaction
 
@@ -79,6 +81,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 - [BALANCE: Bayesian Linear Attribution for Root Cause Localization](http://arxiv.org/abs/2301.13572) [SIGMOD 23]
 - [Towards Effective Bug Triage with Software Data Reduction Techniques](https://ieeexplore.ieee.org/document/6815966/) [TKDE 15]
+- Relational Debugging --- Pinpointing Root Causes of Performance Problems [OSDI 23]
 
 ### Fault Location
 
