@@ -43,6 +43,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Diva: Making MVCC Systems HTAP-Friendly]( https://doi.org/10.1145/3514221.3526135 ) [SIGMOD 22]
 - [Plor: General Transactions with Predictable, Low Tail Latency]( https://doi.org/10.1145/3514221.3517879 ) [SIGMOD 22]
 - [Strictly Serializable Timestamp Ordering by Avoiding the Timestamp-Inversion Pitfall](https://arxiv.org/abs/2305.14270) [OSDI 23]
+- [Polyjuice: High-Performance Transactions via Learned Concurrency Control](https://www.usenix.org/conference/osdi21/presentation/wang-jiachen) [OSDI 21]
 - Verifying vMVCC, a high-performance database using multi-version concurrency control [OSDI]
 
 ### Transaction
