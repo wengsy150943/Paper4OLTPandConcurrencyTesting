@@ -32,14 +32,14 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 ### Implementation
 
-- GeoGauss: Strongly Consistent Coordinator-Free OLTP for Geo-Replicated SQL Database  [SIGMOD 23]
+- [GeoGauss: Strongly Consistent Coordinator-Free OLTP for Geo-Replicated SQL Database](https://dl.acm.org/doi/abs/10.1145/3588916)  [SIGMOD 23]
 - [P4DB - The Case for In-Network OLTP]( https://doi.org/10.1145/3514221.3517825 ) [SIGMOD 22]
 - [GaccO - A GPU-accelerated OLTP DBMS ]( https://doi.org/10.1145/3514221.3517876 )[SIGMOD 22]
 - [Proteus: Autonomous Adaptive Storage for Mixed Workloads]( https://doi.org/10.1145/3514221.3517834 ) [SIGMOD 22]
 
 ### Concurrency Control
 
--  Polaris: Enabling Transaction Priority in Optimistic Concurrency Control [SIGMOD 23]
+-  [Polaris: Enabling Transaction Priority in Optimistic Concurrency Control](https://dl.acm.org/doi/abs/10.1145/3588724) [SIGMOD 23]
 - [Diva: Making MVCC Systems HTAP-Friendly]( https://doi.org/10.1145/3514221.3526135 ) [SIGMOD 22]
 - [Plor: General Transactions with Predictable, Low Tail Latency]( https://doi.org/10.1145/3514221.3517879 ) [SIGMOD 22]
 - [Strictly Serializable Timestamp Ordering by Avoiding the Timestamp-Inversion Pitfall](https://arxiv.org/abs/2305.14270) [OSDI 23]
@@ -48,7 +48,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 ### Transaction
 
--  Transaction Scheduling: From Conflicts to Runtime Conflicts [SIGMOD 23]
+-  [Transaction Scheduling: From Conflicts to Runtime Conflicts](https://dl.acm.org/doi/abs/10.1145/3588706) [SIGMOD 23]
 -  [Towards a Practical Database Management System with Verifiable ACID Properties and Transaction Correctness]( https://doi.org/10.1145/3514221.3517851 ) [SIGMOD 22]
 -  [Skeena: Efficient and Consistent Cross-Engine Transactions]( https://doi.org/10.1145/3514221.3526171 ) [SIGMOD 22]
 -  [Natto: Providing Distributed Transaction Prioritization for High-Contention Workloads]( https://doi.org/10.1145/3514221.3526161 ) [SIGMOD 22]
@@ -61,7 +61,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 ### Benchmark
 
--  DBPA: A Benchmark for Transactional Database Performance Anomalies  [SIGMOD 23]
+-  [DBPA: A Benchmark for Transactional Database Performance Anomalies](https://dl.acm.org/doi/abs/10.1145/3588926)  [SIGMOD 23]
+-  [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC15]
 
 
 ## Testing
