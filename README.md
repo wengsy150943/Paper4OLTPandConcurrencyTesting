@@ -45,6 +45,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Strictly Serializable Timestamp Ordering by Avoiding the Timestamp-Inversion Pitfall](https://arxiv.org/abs/2305.14270) [OSDI 23]
 - [Polyjuice: High-Performance Transactions via Learned Concurrency Control](https://www.usenix.org/conference/osdi21/presentation/wang-jiachen) [OSDI 21]
 - Verifying vMVCC, a high-performance database using multi-version concurrency control [OSDI]
+- [Contention-aware lock scheduling for transactional databases](http://dl.acm.org/citation.cfm?doid=3187009.3177740) [VLDB 18]
 
 ### Transaction
 
