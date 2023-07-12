@@ -27,6 +27,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 ## Survey
 
 - [10 Years of research on debugging concurrent and multicore software: a systematic mapping study](http://link.springer.com/10.1007/s11219-015-9301-7) [Software Quality Journal 17]
+- [Coo: Consistency Check for Transactional Databases](http://arxiv.org/abs/2206.14602)
 
 ## OLTP
 
@@ -46,6 +47,9 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Polyjuice: High-Performance Transactions via Learned Concurrency Control](https://www.usenix.org/conference/osdi21/presentation/wang-jiachen) [OSDI 21]
 - Verifying vMVCC, a high-performance database using multi-version concurrency control [OSDI]
 - [Contention-aware lock scheduling for transactional databases](http://dl.acm.org/citation.cfm?doid=3187009.3177740) [VLDB 18]
+- [Cornus: atomic commit for a cloud DBMS with storage disaggregation](https://dl.acm.org/doi/10.14778/3565816.3565837) [VLDB 22]
+- [Making Cache Monotonic and Consistent](https://www.vldb.org/pvldb/vol16/p891-cao.pdf) [VLDB 22]
+- [Scalable and Robust Snapshot Isolation for High-Performance Storage Engines](https://dl.acm.org/doi/10.14778/3583140.3583157) [VLDB 22]
 
 ### Transaction
 
@@ -53,6 +57,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 -  [Towards a Practical Database Management System with Verifiable ACID Properties and Transaction Correctness]( https://doi.org/10.1145/3514221.3517851 ) [SIGMOD 22]
 -  [Skeena: Efficient and Consistent Cross-Engine Transactions]( https://doi.org/10.1145/3514221.3526171 ) [SIGMOD 22]
 -  [Natto: Providing Distributed Transaction Prioritization for High-Contention Workloads]( https://doi.org/10.1145/3514221.3526161 ) [SIGMOD 22]
+-  [Fine-Grained Re-Execution for Efficient Batched Commit of Distributed Transactions](https://www.vldb.org/pvldb/vol16/p1930-dong.pdf) [VLDB 22]
 
 ### Anomaly Detection
 
@@ -64,6 +69,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 -  [DBPA: A Benchmark for Transactional Database Performance Anomalies](https://dl.acm.org/doi/abs/10.1145/3588926)  [SIGMOD 23]
 -  [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC15]
+-  [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
 
 
 ## Testing
