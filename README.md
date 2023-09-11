@@ -28,6 +28,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 - [10 Years of research on debugging concurrent and multicore software: a systematic mapping study](http://link.springer.com/10.1007/s11219-015-9301-7) [Software Quality Journal 17]
 - [Coo: Consistency Check for Transactional Databases](http://arxiv.org/abs/2206.14602)
+- [Techniques and Efficiencies from Building a Real-Time DBMS](https://www.vldb.org/pvldb/vol16/p3676-srinivasan.pdf) [VLDB 23]
 
 ## OLTP
 
@@ -37,6 +38,17 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [P4DB - The Case for In-Network OLTP]( https://doi.org/10.1145/3514221.3517825 ) [SIGMOD 22]
 - [GaccO - A GPU-accelerated OLTP DBMS ]( https://doi.org/10.1145/3514221.3517876 )[SIGMOD 22]
 - [Proteus: Autonomous Adaptive Storage for Mixed Workloads]( https://doi.org/10.1145/3514221.3517834 ) [SIGMOD 22]
+- [Progressive Partitioning for Parallelized Query Execution in Google's Napa](https://www.vldb.org/pvldb/vol16/p3475-sankaranarayanan.pdf) [VLDB 23]
+- [Krypton: Real-time Serving and Analytical SQL Engine at ByteDance](https://www.vldb.org/pvldb/vol16/p3528-chen.pdf) [VLDB 23]
+- [OceanBase Paetica: A Hybrid Shared-nothing/Shared-everything Database for Supporting Single Machine and Distributed Cluster](https://www.vldb.org/pvldb/vol16/p3728-xu.pdf) [VLDB 23]
+- [PolarDB-SCC: A Cloud-Native Database Ensuring Low Latency for Strongly Consistent Reads](https://www.vldb.org/pvldb/vol16/p3754-chen.pdf) [VLDB 23]
+- [Natural Language Interfaces for Databases with Deep Learning](https://www.vldb.org/pvldb/vol16/p3878-katsogiannis-meimarakis.pdf) [VLDB 23]
+- [TiQuE: Improving the Transactional Performance of Analytical Systems for True Hybrid Workloads](https://www.vldb.org/pvldb/vol16/p2274-faria.pdf) [VLDB 23]
+
+### Storage
+
+- [What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines](https://www.vldb.org/pvldb/vol16/p2090-haas.pdf) [VLDB 23]
+- [NVM: Is it Not Very Meaningful for Databases?](https://www.vldb.org/pvldb/vol16/p2444-koutsoukos.pdf) [VLDB 23]
 
 ### Concurrency Control
 
@@ -57,7 +69,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 -  [Towards a Practical Database Management System with Verifiable ACID Properties and Transaction Correctness]( https://doi.org/10.1145/3514221.3517851 ) [SIGMOD 22]
 -  [Skeena: Efficient and Consistent Cross-Engine Transactions]( https://doi.org/10.1145/3514221.3526171 ) [SIGMOD 22]
 -  [Natto: Providing Distributed Transaction Prioritization for High-Contention Workloads]( https://doi.org/10.1145/3514221.3526161 ) [SIGMOD 22]
--  [Fine-Grained Re-Execution for Efficient Batched Commit of Distributed Transactions](https://www.vldb.org/pvldb/vol16/p1930-dong.pdf) [VLDB 22]
+-  [Fine-Grained Re-Execution for Efficient Batched Commit of Distributed Transactions](https://www.vldb.org/pvldb/vol16/p1930-dong.pdf) [VLDB 23]
+-  [Epoxy: ACID Transactions Across Diverse Data Stores](https://www.vldb.org/pvldb/vol16/p2742-kraft.pdf) [VLDB 23]
 
 ### Anomaly Detection
 
@@ -70,7 +83,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 -  [DBPA: A Benchmark for Transactional Database Performance Anomalies](https://dl.acm.org/doi/abs/10.1145/3588926)  [SIGMOD 23]
 -  [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC15]
 -  [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
-
+-  [CDSBen: Benchmarking the Performance of Storage Services in Cloud-native Database System at ByteDance](https://www.vldb.org/pvldb/vol16/p3584-tang.pdf) [VLDB 23]
 
 ## Testing
 
@@ -81,6 +94,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [How are distributed bugs diagnosed and fixed through system logs?](https://linkinghub.elsevier.com/retrieve/pii/S0950584919302496) [Information and Software Technology 20]
 - [Demystifying and Checking Silent Semantic Violations in Large Distributed Systems](https://www.usenix.org/system/files/osdi22-lou-demystifying.pdf) [OSDI 22]
 - [Automatic Reliability Testing for Cluster Management Controllers](https://www.usenix.org/system/files/osdi22-sun.pdf) [OSDI 22]
+- [R^3: Record-Replay-Retroaction for Database-Backed Applications](https://www.vldb.org/pvldb/vol16/p3085-li.pdf) [VLDB 23]
 
 ### Fuzzing
 
