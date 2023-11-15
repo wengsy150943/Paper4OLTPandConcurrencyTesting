@@ -49,6 +49,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 - [What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines](https://www.vldb.org/pvldb/vol16/p2090-haas.pdf) [VLDB 23]
 - [NVM: Is it Not Very Meaningful for Databases?](https://www.vldb.org/pvldb/vol16/p2444-koutsoukos.pdf) [VLDB 23]
+- [An Empirical Evaluation of Columnar Storage Formats](https://www.vldb.org/pvldb/vol17/p148-zeng.pdf) [VLDB 23]
 
 ### Concurrency Control
 
