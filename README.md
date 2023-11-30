@@ -102,6 +102,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Krace: Data Race Fuzzing for Kernel File Systems](https://ieeexplore.ieee.org/document/9152693/) [SP 20]
 - [DynSQL: Stateful Fuzzing for Database Management Systems with Complex and Valid SQL Query Generation](https://www.usenix.org/system/files/sec23summer_60-jiang_zu_ming-prepub.pdf) [Security 23]
 - [Griffin : Grammar-Free DBMS Fuzzing](https://dl.acm.org/doi/abs/10.1145/3551349.3560431) [ASE 22]
+- [Unicorn: detect runtime errors in time-series databases with hybrid input synthesis](https://dl.acm.org/doi/10.1145/3533767.3534364) [ISSTA 23]
 
 ### Root Cause Analyze
 
