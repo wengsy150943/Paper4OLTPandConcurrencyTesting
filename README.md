@@ -114,3 +114,11 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 - [Effective fault localization and context‐aware debugging for concurrent programs](https://onlinelibrary.wiley.com/doi/10.1002/stvr.1797) [Softw Test Verif Reliab 22]
 - [Fault Localization with Code Coverage Representation Learning](https://dl.acm.org/doi/10.1109/ICSE43902.2021.00067) [ICSE 21]
+
+
+## Other Paper List with similar topics
+
+- [Recent Fuzzing Paper](https://wcventure.github.io/FuzzingPaper/)
+- [AP Paper](https://github.com/Wind-Gone/OLAP-Paper)
+- [AI4DB Paper](https://github.com/Wind-Gone/Ai4DB-Paper)
+- [Awesome Database Learning](https://github.com/pingcap/awesome-database-learning)
