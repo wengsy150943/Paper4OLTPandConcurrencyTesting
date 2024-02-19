@@ -72,6 +72,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 -  [Natto: Providing Distributed Transaction Prioritization for High-Contention Workloads]( https://doi.org/10.1145/3514221.3526161 ) [SIGMOD 22]
 -  [Fine-Grained Re-Execution for Efficient Batched Commit of Distributed Transactions](https://www.vldb.org/pvldb/vol16/p1930-dong.pdf) [VLDB 23]
 -  [Epoxy: ACID Transactions Across Diverse Data Stores](https://www.vldb.org/pvldb/vol16/p2742-kraft.pdf) [VLDB 23]
+-  [Epoch-based Commit and Replication in Distributed OLTP Databases](https://www.vldb.org/pvldb/vol14/p743-lu.pdf) [VLDB 21]
+-  [Efficient Distributed Transaction Processing in Heterogeneous Networks](https://www.vldb.org/pvldb/vol16/p1372-lu.pdf) [VLDB 23]
 
 ### Anomaly Detection
 
