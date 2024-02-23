@@ -128,3 +128,4 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [AP Paper](https://github.com/Wind-Gone/OLAP-Paper)
 - [AI4DB Paper](https://github.com/Wind-Gone/Ai4DB-Paper)
 - [Awesome Database Learning](https://github.com/pingcap/awesome-database-learning)
+- [Readings in Database Systems](http://www.redbook.io/all-readings.html)
