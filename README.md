@@ -50,6 +50,9 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines](https://www.vldb.org/pvldb/vol16/p2090-haas.pdf) [VLDB 23]
 - [NVM: Is it Not Very Meaningful for Databases?](https://www.vldb.org/pvldb/vol16/p2444-koutsoukos.pdf) [VLDB 23]
 - [An Empirical Evaluation of Columnar Storage Formats](https://www.vldb.org/pvldb/vol17/p148-zeng.pdf) [VLDB 23]
+- Understanding the Performance Implications of the Design Principles in Storage-Disaggregated Databases [SIGMOD 24]
+- Structural Designs Meet Optimality: Exploring Optimized LSM-tree Structures in A Colossal Configuration Space [SIGMOD 24]
+- CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage Disaggregated Infrastructure [[SIGMOD](https://github.com/asu-idi/CaaS-LSM) 24]
 
 ### Concurrency Control
 
@@ -58,11 +61,12 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Plor: General Transactions with Predictable, Low Tail Latency]( https://doi.org/10.1145/3514221.3517879 ) [SIGMOD 22]
 - [Strictly Serializable Timestamp Ordering by Avoiding the Timestamp-Inversion Pitfall](https://arxiv.org/abs/2305.14270) [OSDI 23]
 - [Polyjuice: High-Performance Transactions via Learned Concurrency Control](https://www.usenix.org/conference/osdi21/presentation/wang-jiachen) [OSDI 21]
-- Verifying vMVCC, a high-performance database using multi-version concurrency control [OSDI]
+- [Verifying vMVCC, a high-performance database using multi-version concurrency control](https://www.usenix.org/system/files/osdi23-chang.pdf) [OSDI 23]
 - [Contention-aware lock scheduling for transactional databases](http://dl.acm.org/citation.cfm?doid=3187009.3177740) [VLDB 18]
 - [Cornus: atomic commit for a cloud DBMS with storage disaggregation](https://dl.acm.org/doi/10.14778/3565816.3565837) [VLDB 22]
 - [Making Cache Monotonic and Consistent](https://www.vldb.org/pvldb/vol16/p891-cao.pdf) [VLDB 22]
 - [Scalable and Robust Snapshot Isolation for High-Performance Storage Engines](https://dl.acm.org/doi/10.14778/3583140.3583157) [VLDB 22]
+- [OptiQL: Robust Optimistic Locking for Memory-Optimized Indexes](https://www2.cs.sfu.ca/~tzwang/optiql.pdf) [[SIGMOD](https://github.com/sfu-dis/optiql)24]
 
 ### Transaction
 
@@ -74,6 +78,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 -  [Epoxy: ACID Transactions Across Diverse Data Stores](https://www.vldb.org/pvldb/vol16/p2742-kraft.pdf) [VLDB 23]
 -  [Epoch-based Commit and Replication in Distributed OLTP Databases](https://www.vldb.org/pvldb/vol14/p743-lu.pdf) [VLDB 21]
 -  [Efficient Distributed Transaction Processing in Heterogeneous Networks](https://www.vldb.org/pvldb/vol16/p1372-lu.pdf) [VLDB 23]
+-  [NOC-NOC: Towards Performance-optimal Distributed Transactions](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/665216/main.pdf?sequence=1) [SIGMOD 24]
 
 ### Anomaly Detection
 
@@ -87,6 +92,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 -  [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC15]
 -  [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
 -  [CDSBen: Benchmarking the Performance of Storage Services in Cloud-native Database System at ByteDance](https://www.vldb.org/pvldb/vol16/p3584-tang.pdf) [VLDB 23]
+-  
 
 ## Testing
 
@@ -98,6 +104,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Demystifying and Checking Silent Semantic Violations in Large Distributed Systems](https://www.usenix.org/system/files/osdi22-lou-demystifying.pdf) [OSDI 22]
 - [Automatic Reliability Testing for Cluster Management Controllers](https://www.usenix.org/system/files/osdi22-sun.pdf) [OSDI 22]
 - [R^3: Record-Replay-Retroaction for Database-Backed Applications](https://www.vldb.org/pvldb/vol16/p3085-li.pdf) [VLDB 23]
+- [LST-Meter: Benchmarking Log-Structured Tables in the Cloud](https://arxiv.org/pdf/2305.01120.pdf) [SIGMOD 24]
 
 ### Fuzzing
 
@@ -114,7 +121,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 - [BALANCE: Bayesian Linear Attribution for Root Cause Localization](http://arxiv.org/abs/2301.13572) [SIGMOD 23]
 - [Towards Effective Bug Triage with Software Data Reduction Techniques](https://ieeexplore.ieee.org/document/6815966/) [TKDE 15]
-- Relational Debugging --- Pinpointing Root Causes of Performance Problems [OSDI 23]
+- [Relational Debugging --- Pinpointing Root Causes of Performance Problems](https://www.usenix.org/system/files/osdi23-ren.pdf) [[OSDI ](https://gitlab.dsrg.utoronto.ca/dsrg/perspect)23]
 
 ### Fault Location
 
