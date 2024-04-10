@@ -67,6 +67,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Making Cache Monotonic and Consistent](https://www.vldb.org/pvldb/vol16/p891-cao.pdf) [VLDB 22]
 - [Scalable and Robust Snapshot Isolation for High-Performance Storage Engines](https://dl.acm.org/doi/10.14778/3583140.3583157) [VLDB 22]
 - [OptiQL: Robust Optimistic Locking for Memory-Optimized Indexes](https://www2.cs.sfu.ca/~tzwang/optiql.pdf) [[SIGMOD](https://github.com/sfu-dis/optiql)24]
+- [A study of database performance sensitivity to experiment settings](https://dl.acm.org/doi/10.14778/3523210.3523221) [VLDB 22]
+- [An evaluation of distributed concurrency control](https://dl.acm.org/doi/10.14778/3055540.3055548) [VLDB 17]
 
 ### Transaction
 
