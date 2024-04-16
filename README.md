@@ -44,6 +44,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [PolarDB-SCC: A Cloud-Native Database Ensuring Low Latency for Strongly Consistent Reads](https://www.vldb.org/pvldb/vol16/p3754-chen.pdf) [VLDB 23]
 - [Natural Language Interfaces for Databases with Deep Learning](https://www.vldb.org/pvldb/vol16/p3878-katsogiannis-meimarakis.pdf) [VLDB 23]
 - [TiQuE: Improving the Transactional Performance of Analytical Systems for True Hybrid Workloads](https://www.vldb.org/pvldb/vol16/p2274-faria.pdf) [VLDB 23]
+- [The art of latency hiding in modern database engines](https://dl.acm.org/doi/10.14778/3632093.3632117) [VLDB 23]
+- [CoroBase: coroutine-oriented main-memory database engine](https://dl.acm.org/doi/10.14778/3430915.3430932) [VLDB 21]
 
 ### Storage
 
