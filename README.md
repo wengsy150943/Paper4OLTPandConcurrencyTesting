@@ -46,6 +46,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [TiQuE: Improving the Transactional Performance of Analytical Systems for True Hybrid Workloads](https://www.vldb.org/pvldb/vol16/p2274-faria.pdf) [VLDB 23]
 - [The art of latency hiding in modern database engines](https://dl.acm.org/doi/10.14778/3632093.3632117) [VLDB 23]
 - [CoroBase: coroutine-oriented main-memory database engine](https://dl.acm.org/doi/10.14778/3430915.3430932) [VLDB 21]
+-  [ScaleDB: A Scalable, Asynchronous In-Memory Database](https://www.usenix.org/conference/osdi23/presentation/mehdi) [OSDI 23]
 
 ### Storage
 
@@ -71,6 +72,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [OptiQL: Robust Optimistic Locking for Memory-Optimized Indexes](https://www2.cs.sfu.ca/~tzwang/optiql.pdf) [[SIGMOD](https://github.com/sfu-dis/optiql)24]
 - [A study of database performance sensitivity to experiment settings](https://dl.acm.org/doi/10.14778/3523210.3523221) [VLDB 22]
 - [An evaluation of distributed concurrency control](https://dl.acm.org/doi/10.14778/3055540.3055548) [VLDB 17]
+- [NCC: Natural Concurrency Control for Strictly Serializable Datastores by Avoiding the Timestamp-Inversion Pitfall](https://www.usenix.org/conference/osdi23/presentation/lu) [OSDI 23]
 
 ### Transaction
 
@@ -83,6 +85,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 -  [Epoch-based Commit and Replication in Distributed OLTP Databases](https://www.vldb.org/pvldb/vol14/p743-lu.pdf) [VLDB 21]
 -  [Efficient Distributed Transaction Processing in Heterogeneous Networks](https://www.vldb.org/pvldb/vol16/p1372-lu.pdf) [VLDB 23]
 -  [NOC-NOC: Towards Performance-optimal Distributed Transactions](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/665216/main.pdf?sequence=1) [SIGMOD 24]
+-  [Chardonnay: Fast and General Datacenter Transactions for On-Disk Databases](https://www.usenix.org/conference/osdi23/presentation/eldeeb) [OSDI 23]
 
 ### Anomaly Detection
 
