@@ -2,27 +2,15 @@
 
 This repository lists papers with topics covering OLTP and error testing (especially concurrency-related testing).
 
-New PR is welcome for any material that you think should be included in this collection.  .
+New PR is welcome for any material that you think should be included in this collection. .
 
-If you want to add new paper, please follow link format: 
+If you want to add new paper, please follow link format:
 
 ```markdown
 paperName(with access link) [MeetingName(with open source code, if exists) Year]
 ```
 
-- [Paper For OLTP and ConcurrencyTesting](#paper4oltpandconcurrencytesting)
-  - [Survey](#survey)
-  - [OLTP](#oltp)
-    - [Implementation](#implementation)
-    - [Concurrency Control](#concurrency-control)
-    - [Transaction](#transaction)
-    - [Anomaly Detection](#anomaly-detection)
-    - [Benchmark](#benchmark)
-  - [Testing](#testing)
-    - [Concurrency Testing](#concurrency-testing)
-    - [Fuzzing](#fuzzing)
-    - [Root Cause Analyze](#root-cause-analyze)
-    - [Fault Location](#fault-location)
+[TOC]
 
 ## Survey
 
@@ -34,10 +22,10 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 ### Implementation
 
-- [GeoGauss: Strongly Consistent Coordinator-Free OLTP for Geo-Replicated SQL Database](https://dl.acm.org/doi/abs/10.1145/3588916)  [SIGMOD 23]
-- [P4DB - The Case for In-Network OLTP]( https://doi.org/10.1145/3514221.3517825 ) [SIGMOD 22]
-- [GaccO - A GPU-accelerated OLTP DBMS ]( https://doi.org/10.1145/3514221.3517876 )[SIGMOD 22]
-- [Proteus: Autonomous Adaptive Storage for Mixed Workloads]( https://doi.org/10.1145/3514221.3517834 ) [SIGMOD 22]
+- [GeoGauss: Strongly Consistent Coordinator-Free OLTP for Geo-Replicated SQL Database](https://dl.acm.org/doi/abs/10.1145/3588916) [SIGMOD 23]
+- [P4DB - The Case for In-Network OLTP](https://doi.org/10.1145/3514221.3517825) [SIGMOD 22]
+- [GaccO - A GPU-accelerated OLTP DBMS ](https://doi.org/10.1145/3514221.3517876)[SIGMOD 22]
+- [Proteus: Autonomous Adaptive Storage for Mixed Workloads](https://doi.org/10.1145/3514221.3517834) [SIGMOD 22]
 - [Progressive Partitioning for Parallelized Query Execution in Google's Napa](https://www.vldb.org/pvldb/vol16/p3475-sankaranarayanan.pdf) [VLDB 23]
 - [Krypton: Real-time Serving and Analytical SQL Engine at ByteDance](https://www.vldb.org/pvldb/vol16/p3528-chen.pdf) [VLDB 23]
 - [OceanBase Paetica: A Hybrid Shared-nothing/Shared-everything Database for Supporting Single Machine and Distributed Cluster](https://www.vldb.org/pvldb/vol16/p3728-xu.pdf) [VLDB 23]
@@ -46,7 +34,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [TiQuE: Improving the Transactional Performance of Analytical Systems for True Hybrid Workloads](https://www.vldb.org/pvldb/vol16/p2274-faria.pdf) [VLDB 23]
 - [The art of latency hiding in modern database engines](https://dl.acm.org/doi/10.14778/3632093.3632117) [VLDB 23]
 - [CoroBase: coroutine-oriented main-memory database engine](https://dl.acm.org/doi/10.14778/3430915.3430932) [VLDB 21]
--  [ScaleDB: A Scalable, Asynchronous In-Memory Database](https://www.usenix.org/conference/osdi23/presentation/mehdi) [OSDI 23]
+- [ScaleDB: A Scalable, Asynchronous In-Memory Database](https://www.usenix.org/conference/osdi23/presentation/mehdi) [OSDI 23]
 
 ### Storage
 
@@ -59,9 +47,9 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 ### Concurrency Control
 
--  [Polaris: Enabling Transaction Priority in Optimistic Concurrency Control](https://dl.acm.org/doi/abs/10.1145/3588724) [SIGMOD 23]
-- [Diva: Making MVCC Systems HTAP-Friendly]( https://doi.org/10.1145/3514221.3526135 ) [SIGMOD 22]
-- [Plor: General Transactions with Predictable, Low Tail Latency]( https://doi.org/10.1145/3514221.3517879 ) [SIGMOD 22]
+- [Polaris: Enabling Transaction Priority in Optimistic Concurrency Control](https://dl.acm.org/doi/abs/10.1145/3588724) [SIGMOD 23]
+- [Diva: Making MVCC Systems HTAP-Friendly](https://doi.org/10.1145/3514221.3526135) [SIGMOD 22]
+- [Plor: General Transactions with Predictable, Low Tail Latency](https://doi.org/10.1145/3514221.3517879) [SIGMOD 22]
 - [Strictly Serializable Timestamp Ordering by Avoiding the Timestamp-Inversion Pitfall](https://arxiv.org/abs/2305.14270) [OSDI 23]
 - [Polyjuice: High-Performance Transactions via Learned Concurrency Control](https://www.usenix.org/conference/osdi21/presentation/wang-jiachen) [OSDI 21]
 - [Verifying vMVCC, a high-performance database using multi-version concurrency control](https://www.usenix.org/system/files/osdi23-chang.pdf) [OSDI 23]
@@ -76,42 +64,45 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 ### Transaction
 
--  [Transaction Scheduling: From Conflicts to Runtime Conflicts](https://dl.acm.org/doi/abs/10.1145/3588706) [SIGMOD 23]
--  [Towards a Practical Database Management System with Verifiable ACID Properties and Transaction Correctness]( https://doi.org/10.1145/3514221.3517851 ) [SIGMOD 22]
--  [Skeena: Efficient and Consistent Cross-Engine Transactions]( https://doi.org/10.1145/3514221.3526171 ) [SIGMOD 22]
--  [Natto: Providing Distributed Transaction Prioritization for High-Contention Workloads]( https://doi.org/10.1145/3514221.3526161 ) [SIGMOD 22]
--  [Fine-Grained Re-Execution for Efficient Batched Commit of Distributed Transactions](https://www.vldb.org/pvldb/vol16/p1930-dong.pdf) [VLDB 23]
--  [Epoxy: ACID Transactions Across Diverse Data Stores](https://www.vldb.org/pvldb/vol16/p2742-kraft.pdf) [VLDB 23]
--  [Epoch-based Commit and Replication in Distributed OLTP Databases](https://www.vldb.org/pvldb/vol14/p743-lu.pdf) [VLDB 21]
--  [Efficient Distributed Transaction Processing in Heterogeneous Networks](https://www.vldb.org/pvldb/vol16/p1372-lu.pdf) [VLDB 23]
--  [NOC-NOC: Towards Performance-optimal Distributed Transactions](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/665216/main.pdf?sequence=1) [SIGMOD 24]
--  [Chardonnay: Fast and General Datacenter Transactions for On-Disk Databases](https://www.usenix.org/conference/osdi23/presentation/eldeeb) [OSDI 23]
+- [Transaction Scheduling: From Conflicts to Runtime Conflicts](https://dl.acm.org/doi/abs/10.1145/3588706) [SIGMOD 23]
+- [Towards a Practical Database Management System with Verifiable ACID Properties and Transaction Correctness](https://doi.org/10.1145/3514221.3517851) [SIGMOD 22]
+- [Skeena: Efficient and Consistent Cross-Engine Transactions](https://doi.org/10.1145/3514221.3526171) [SIGMOD 22]
+- [Natto: Providing Distributed Transaction Prioritization for High-Contention Workloads](https://doi.org/10.1145/3514221.3526161) [SIGMOD 22]
+- [Fine-Grained Re-Execution for Efficient Batched Commit of Distributed Transactions](https://www.vldb.org/pvldb/vol16/p1930-dong.pdf) [VLDB 23]
+- [Epoxy: ACID Transactions Across Diverse Data Stores](https://www.vldb.org/pvldb/vol16/p2742-kraft.pdf) [VLDB 23]
+- [Epoch-based Commit and Replication in Distributed OLTP Databases](https://www.vldb.org/pvldb/vol14/p743-lu.pdf) [VLDB 21]
+- [Efficient Distributed Transaction Processing in Heterogeneous Networks](https://www.vldb.org/pvldb/vol16/p1372-lu.pdf) [VLDB 23]
+- [NOC-NOC: Towards Performance-optimal Distributed Transactions](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/665216/main.pdf?sequence=1) [SIGMOD 24]
+- [Chardonnay: Fast and General Datacenter Transactions for On-Disk Databases](https://www.usenix.org/conference/osdi23/presentation/eldeeb) [OSDI 23]
+- [Opportunities for optimism in contended main-memory multicore transactions](https://link.springer.com/10.1007/s00778-021-00719-9) [VLDB 22]
 
 ### Anomaly Detection
 
--  [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570)   [SIGMOD 23] 
-- [Detecting Isolation Bugs via Transaction Oracle Construction]( https://doi.org/10.5281/zenodo.7645649 ) [ [ICSE](https://github.com/criszy/Troc) 23]
+- [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
+- [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [ [ICSE](https://github.com/criszy/Troc) 23]
 - [Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching](http://arxiv.org/abs/2201.02944) [ICSE 22]
 
 ### Benchmark
 
--  [DBPA: A Benchmark for Transactional Database Performance Anomalies](https://dl.acm.org/doi/abs/10.1145/3588926)  [SIGMOD 23]
--  [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC15]
--  [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
--  [CDSBen: Benchmarking the Performance of Storage Services in Cloud-native Database System at ByteDance](https://www.vldb.org/pvldb/vol16/p3584-tang.pdf) [VLDB 23]
--  
+- [DBPA: A Benchmark for Transactional Database Performance Anomalies](https://dl.acm.org/doi/abs/10.1145/3588926) [SIGMOD 23]
+- [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC 15]
+- [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
+- [CDSBen: Benchmarking the Performance of Storage Services in Cloud-native Database System at ByteDance](https://www.vldb.org/pvldb/vol16/p3584-tang.pdf) [VLDB 23]
+- [Leopard: A Black-Box Approach for Efficiently Verifying Various Isolation Levels](https://ieeexplore.ieee.org/abstract/document/10184872) [ICDE 23]
 
 ## Testing
 
 ### Concurrency Testing
 
-- [Race Directed Random Testing of Concurrent Programs]( https://dl.acm.org/doi/10.1145/1375581.1375584 ) [PLDI 08]
-- [Sound and Efficient Concurrency Bug Prediction](  https://dl.acm.org/doi/10.1145/3468264.3468549 ) [ESEC/FSE 21]
+- [Race Directed Random Testing of Concurrent Programs](https://dl.acm.org/doi/10.1145/1375581.1375584) [PLDI 08]
+- [Sound and Efficient Concurrency Bug Prediction](https://dl.acm.org/doi/10.1145/3468264.3468549) [ESEC/FSE 21]
 - [How are distributed bugs diagnosed and fixed through system logs?](https://linkinghub.elsevier.com/retrieve/pii/S0950584919302496) [Information and Software Technology 20]
 - [Demystifying and Checking Silent Semantic Violations in Large Distributed Systems](https://www.usenix.org/system/files/osdi22-lou-demystifying.pdf) [OSDI 22]
 - [Automatic Reliability Testing for Cluster Management Controllers](https://www.usenix.org/system/files/osdi22-sun.pdf) [OSDI 22]
 - [R^3: Record-Replay-Retroaction for Database-Backed Applications](https://www.vldb.org/pvldb/vol16/p3085-li.pdf) [VLDB 23]
 - [LST-Meter: Benchmarking Log-Structured Tables in the Cloud](https://arxiv.org/pdf/2305.01120.pdf) [SIGMOD 24]
+- [Detecting Transactional Bugs in Database Engines via Graph-Based Oracle Construction](https://www.usenix.org/system/files/osdi23-jiang.pdf) [[OSDI](https://github.com/JZuming/TxCheck) 23]
+- [Differentially testing database transactions for fun and profit](http://tcse.cn/~wsdou/papers/2022-issta-grand.pdf) [[ISSTA](https://github.com/tcse-iscas/Grand) 22]
 
 ### Fuzzing
 
@@ -123,18 +114,26 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [The Use of Likely Invariants as Feedback for Fuzzers](https://www.usenix.org/system/files/sec21-fioraldi.pdf) [SEC 21]
 - [Semantic fuzzing with zest](https://dl.acm.org/doi/10.1145/3293882.3330576) [ISSTA 19]
 
+### Other Testing Methods
+
+- [Detecting logic bugs in database engines via equivalent expression transformation](https://jzuming.github.io/paper/osdi24-jiang.pdf) [[OSDI](https://github.com/JZuming/EET) 24]
+- [Detecting metadata-related logic bugs in database systems via raw database construction](https://doi.org/10.14778/3659437.3659445) [VLDB 24]
+- [Keep it simple: testing databases via differential query plans](https://bajinsheng.github.io/assets/pdf/dqp_sigmod24.pdf) [[SIGMOD](https://github.com/sqlancer/sqlancer/issues/918) 24]
+- [Detecting optimization bugs in database engines via non-optimizing reference engine construction](https://doi.org/10.1145/3368089.3409710) [FSE 20]
+- [Testing Database Engines via Query Plan Guidance](https://arxiv.org/pdf/2312.17510.pdf) [[ICSE](https://github.com/sqlancer/sqlancer/issues/641) 23]
+- [Testing Database Engines via Pivoted Query Synthesis](https://www.usenix.org/system/files/osdi20-rigger.pdf) [[OSDI](https://www.usenix.org/conference/osdi20/presentation/rigger) 20]
+- [Detecting Optimization Bugs in Database Engines via Non-Optimizing Reference Engine Construction](https://dl.acm.org/doi/pdf/10.1145/3368089.3409710) [FSE 20]
 
 ### Root Cause Analyze
 
 - [BALANCE: Bayesian Linear Attribution for Root Cause Localization](http://arxiv.org/abs/2301.13572) [SIGMOD 23]
 - [Towards Effective Bug Triage with Software Data Reduction Techniques](https://ieeexplore.ieee.org/document/6815966/) [TKDE 15]
-- [Relational Debugging --- Pinpointing Root Causes of Performance Problems](https://www.usenix.org/system/files/osdi23-ren.pdf) [[OSDI ](https://gitlab.dsrg.utoronto.ca/dsrg/perspect)23]
+- [Relational Debugging --- Pinpointing Root Causes of Performance Problems](https://www.usenix.org/system/files/osdi23-ren.pdf) [[OSDI](https://gitlab.dsrg.utoronto.ca/dsrg/perspect) 23]
 
 ### Fault Location
 
 - [Effective fault localization and context‐aware debugging for concurrent programs](https://onlinelibrary.wiley.com/doi/10.1002/stvr.1797) [Softw Test Verif Reliab 22]
 - [Fault Localization with Code Coverage Representation Learning](https://dl.acm.org/doi/10.1109/ICSE43902.2021.00067) [ICSE 21]
-
 
 ## Other Paper List with similar topics
 
