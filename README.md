@@ -35,15 +35,20 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [The art of latency hiding in modern database engines](https://dl.acm.org/doi/10.14778/3632093.3632117) [VLDB 23]
 - [CoroBase: coroutine-oriented main-memory database engine](https://dl.acm.org/doi/10.14778/3430915.3430932) [VLDB 21]
 - [ScaleDB: A Scalable, Asynchronous In-Memory Database](https://www.usenix.org/conference/osdi23/presentation/mehdi) [OSDI 23]
+- [NOMAD: Non-Exclusive Memory Tiering via Transactional Page Migration](https://www.usenix.org/system/files/osdi24-xiang.pdf) [OSDI 24]
+- [DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency](https://www.usenix.org/system/files/osdi24-ma-haoran.pdf) [OSDI 24]
+
+
 
 ### Storage
 
 - [What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines](https://www.vldb.org/pvldb/vol16/p2090-haas.pdf) [VLDB 23]
 - [NVM: Is it Not Very Meaningful for Databases?](https://www.vldb.org/pvldb/vol16/p2444-koutsoukos.pdf) [VLDB 23]
 - [An Empirical Evaluation of Columnar Storage Formats](https://www.vldb.org/pvldb/vol17/p148-zeng.pdf) [VLDB 23]
-- Understanding the Performance Implications of the Design Principles in Storage-Disaggregated Databases [SIGMOD 24]
-- Structural Designs Meet Optimality: Exploring Optimized LSM-tree Structures in A Colossal Configuration Space [SIGMOD 24]
-- CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage Disaggregated Infrastructure [[SIGMOD](https://github.com/asu-idi/CaaS-LSM) 24]
+- [Understanding the Performance Implications of the Design Principles in Storage-Disaggregated Databases](https://dl.acm.org/doi/pdf/10.1145/3654983) [SIGMOD 24]
+- [Structural Designs Meet Optimality: Exploring Optimized LSM-tree Structures in A Colossal Configuration Space](https://dl.acm.org/doi/pdf/10.1145/3654978) [SIGMOD 24]
+- [CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage Disaggregated Infrastructure](https://dl.acm.org/doi/pdf/10.1145/3654927) [[SIGMOD](https://github.com/asu-idi/CaaS-LSM) 24]
+
 
 ### Concurrency Control
 
@@ -61,6 +66,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [A study of database performance sensitivity to experiment settings](https://dl.acm.org/doi/10.14778/3523210.3523221) [VLDB 22]
 - [An evaluation of distributed concurrency control](https://dl.acm.org/doi/10.14778/3055540.3055548) [VLDB 17]
 - [NCC: Natural Concurrency Control for Strictly Serializable Datastores by Avoiding the Timestamp-Inversion Pitfall](https://www.usenix.org/conference/osdi23/presentation/lu) [OSDI 23]
+- [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/system/files/osdi24-zhang-ming.pdf) [OSDI 24]
+- [Massively Parallel Multi-Versioned Transaction Processing](https://www.usenix.org/system/files/osdi24-qian.pdf) [OSDI 24]
 
 ### Transaction
 
