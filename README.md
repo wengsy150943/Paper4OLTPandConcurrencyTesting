@@ -12,11 +12,13 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 [TOC]
 
-## Survey
+## Survey and Tutorial
 
 - [10 Years of research on debugging concurrent and multicore software: a systematic mapping study](http://link.springer.com/10.1007/s11219-015-9301-7) [Software Quality Journal 17]
 - [Coo: Consistency Check for Transactional Databases](http://arxiv.org/abs/2206.14602)
 - [Techniques and Efficiencies from Building a Real-Time DBMS](https://www.vldb.org/pvldb/vol16/p3676-srinivasan.pdf) [VLDB 23]
+- [LLM for Data Management](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/p2031-li-vldb2024.pdf) [VLDB 24]
+- [Native Distributed Databases: Problems, Challenges and Opportunities](https://www.vldb.org/pvldb/vol17/p4217-xu.pdf) [VLDB 24]
 
 ## OLTP
 
@@ -37,6 +39,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [ScaleDB: A Scalable, Asynchronous In-Memory Database](https://www.usenix.org/conference/osdi23/presentation/mehdi) [OSDI 23]
 - [NOMAD: Non-Exclusive Memory Tiering via Transactional Page Migration](https://www.usenix.org/system/files/osdi24-xiang.pdf) [OSDI 24]
 - [DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency](https://www.usenix.org/system/files/osdi24-ma-haoran.pdf) [OSDI 24]
+- [GaussDB: A Cloud-Native Multi-Primary Database with Compute-Memory-Storage Disaggregation](https://www.vldb.org/pvldb/vol17/p3786-li.pdf) [VLDB 24]
+- [TDSQL: Tencent Distributed Database System](https://www.vldb.org/pvldb/vol17/p3869-chen.pdf) [VLDB 24]
 
 
 
@@ -48,6 +52,9 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Understanding the Performance Implications of the Design Principles in Storage-Disaggregated Databases](https://dl.acm.org/doi/pdf/10.1145/3654983) [SIGMOD 24]
 - [Structural Designs Meet Optimality: Exploring Optimized LSM-tree Structures in A Colossal Configuration Space](https://dl.acm.org/doi/pdf/10.1145/3654978) [SIGMOD 24]
 - [CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage Disaggregated Infrastructure](https://dl.acm.org/doi/pdf/10.1145/3654927) [[SIGMOD](https://github.com/asu-idi/CaaS-LSM) 24]
+- [LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services](https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf) [VLDB 24]
+- [LeanStore: A High-Performance Storage Engine for NVMe SSDs](https://www.vldb.org/pvldb/vol17/p4536-leis.pdf) [VLDB 24]
+- [PALF: Replicated Write-Ahead Logging for Distributed Databases](https://www.vldb.org/pvldb/vol17/p3745-xu.pdf) [[VLDB](https://github.com/oceanbase/oceanbase/tree/develop/src/logservice/palf) 24]
 
 
 ### Concurrency Control
@@ -68,6 +75,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [NCC: Natural Concurrency Control for Strictly Serializable Datastores by Avoiding the Timestamp-Inversion Pitfall](https://www.usenix.org/conference/osdi23/presentation/lu) [OSDI 23]
 - [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/system/files/osdi24-zhang-ming.pdf) [OSDI 24]
 - [Massively Parallel Multi-Versioned Transaction Processing](https://www.usenix.org/system/files/osdi24-qian.pdf) [OSDI 24]
+- [Towards Optimal Transaction Scheduling](https://dl.acm.org/doi/10.14778/3681954.3681956) [[VLDB](https://github.com/audreyccheng/transaction-scheduling) 24]
 
 ### Transaction
 
@@ -82,12 +90,14 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [NOC-NOC: Towards Performance-optimal Distributed Transactions](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/665216/main.pdf?sequence=1) [SIGMOD 24]
 - [Chardonnay: Fast and General Datacenter Transactions for On-Disk Databases](https://www.usenix.org/conference/osdi23/presentation/eldeeb) [OSDI 23]
 - [Opportunities for optimism in contended main-memory multicore transactions](https://link.springer.com/10.1007/s00778-021-00719-9) [VLDB 22]
+- [Unifying Timestamp with Transaction Ordering for MVCC  with Decentralized Scalar Timestamp](https://www.usenix.org/conference/nsdi21/presentation/wei) [NSDI 21]
 
 ### Anomaly Detection
 
 - [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
 - [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [ [ICSE](https://github.com/criszy/Troc) 23]
 - [Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching](http://arxiv.org/abs/2201.02944) [ICSE 22]
+- [IsoVista: Black-box Checking Database Isolation Guarantees](https://www.vldb.org/pvldb/vol17/p4325-liu.pdf) [[VLDB](https://github.com/hengxin/IsoVista) 24]
 
 ### Benchmark
 
@@ -130,6 +140,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Testing Database Engines via Query Plan Guidance](https://arxiv.org/pdf/2312.17510.pdf) [[ICSE](https://github.com/sqlancer/sqlancer/issues/641) 23]
 - [Testing Database Engines via Pivoted Query Synthesis](https://www.usenix.org/system/files/osdi20-rigger.pdf) [[OSDI](https://www.usenix.org/conference/osdi20/presentation/rigger) 20]
 - [Detecting Optimization Bugs in Database Engines via Non-Optimizing Reference Engine Construction](https://dl.acm.org/doi/pdf/10.1145/3368089.3409710) [FSE 20]
+- [When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection](https://dl.acm.org/doi/10.14778/3681954.3681980) [[VLDB](https://github.com/dsrhaslab/lazyfs) 24]
 
 ### Root Cause Analyze
 
@@ -147,5 +158,6 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Recent Fuzzing Paper](https://wcventure.github.io/FuzzingPaper/)
 - [AP Paper](https://github.com/Wind-Gone/OLAP-Paper)
 - [AI4DB Paper](https://github.com/Wind-Gone/Ai4DB-Paper)
+- [LLM4DB Paper](https://github.com/code4DB/LLM4DB)
 - [Awesome Database Learning](https://github.com/pingcap/awesome-database-learning)
 - [Readings in Database Systems](http://www.redbook.io/all-readings.html)
