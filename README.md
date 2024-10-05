@@ -106,6 +106,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
 - [CDSBen: Benchmarking the Performance of Storage Services in Cloud-native Database System at ByteDance](https://www.vldb.org/pvldb/vol16/p3584-tang.pdf) [VLDB 23]
 - [Leopard: A Black-Box Approach for Efficiently Verifying Various Isolation Levels](https://ieeexplore.ieee.org/abstract/document/10184872) [ICDE 23]
+- [DB-MAGS: Multi-Anomaly Data Generation System for Transactional Databases](https://www.vldb.org/pvldb/vol17/p4497-shen.pdf) [[VLDB](https://github.com/qifeng1128/DB-MAGS) 24]
 
 ## Testing
 
