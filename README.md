@@ -91,6 +91,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Chardonnay: Fast and General Datacenter Transactions for On-Disk Databases](https://www.usenix.org/conference/osdi23/presentation/eldeeb) [OSDI 23]
 - [Opportunities for optimism in contended main-memory multicore transactions](https://link.springer.com/10.1007/s00778-021-00719-9) [VLDB 22]
 - [Unifying Timestamp with Transaction Ordering for MVCC  with Decentralized Scalar Timestamp](https://www.usenix.org/conference/nsdi21/presentation/wei) [NSDI 21]
+- [Knock Out 2PC with Practicality Intact: a High-performance and General Distributed Transaction Protocol](https://arxiv.org/pdf/2302.12517) [ICDE 23]
+- [Lion: Minimizing Distributed Transactions through Adaptive Replica Provision](https://arxiv.org/pdf/2403.11221) [ICDE 24]
 
 ### Anomaly Detection
 
