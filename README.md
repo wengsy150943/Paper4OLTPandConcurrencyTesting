@@ -41,8 +41,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency](https://www.usenix.org/system/files/osdi24-ma-haoran.pdf) [OSDI 24]
 - [GaussDB: A Cloud-Native Multi-Primary Database with Compute-Memory-Storage Disaggregation](https://www.vldb.org/pvldb/vol17/p3786-li.pdf) [VLDB 24]
 - [TDSQL: Tencent Distributed Database System](https://www.vldb.org/pvldb/vol17/p3869-chen.pdf) [VLDB 24]
-
-
+- [LazyLog: A New Shared Log Abstraction for Low-Latency Applications](https://doi.org/10.1145/3694715.3695983) [[SOSP](https://github.com/dassl-uiuc/LazyLog-Artifact) 24]
 
 ### Storage
 
@@ -55,7 +54,6 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services](https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf) [VLDB 24]
 - [LeanStore: A High-Performance Storage Engine for NVMe SSDs](https://www.vldb.org/pvldb/vol17/p4536-leis.pdf) [VLDB 24]
 - [PALF: Replicated Write-Ahead Logging for Distributed Databases](https://www.vldb.org/pvldb/vol17/p3745-xu.pdf) [[VLDB](https://github.com/oceanbase/oceanbase/tree/develop/src/logservice/palf) 24]
-
 
 ### Concurrency Control
 
@@ -90,7 +88,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [NOC-NOC: Towards Performance-optimal Distributed Transactions](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/665216/main.pdf?sequence=1) [SIGMOD 24]
 - [Chardonnay: Fast and General Datacenter Transactions for On-Disk Databases](https://www.usenix.org/conference/osdi23/presentation/eldeeb) [OSDI 23]
 - [Opportunities for optimism in contended main-memory multicore transactions](https://link.springer.com/10.1007/s00778-021-00719-9) [VLDB 22]
-- [Unifying Timestamp with Transaction Ordering for MVCC  with Decentralized Scalar Timestamp](https://www.usenix.org/conference/nsdi21/presentation/wei) [NSDI 21]
+- [Unifying Timestamp with Transaction Ordering for MVCC with Decentralized Scalar Timestamp](https://www.usenix.org/conference/nsdi21/presentation/wei) [NSDI 21]
 
 ### Anomaly Detection
 
@@ -121,6 +119,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [LST-Meter: Benchmarking Log-Structured Tables in the Cloud](https://arxiv.org/pdf/2305.01120.pdf) [SIGMOD 24]
 - [Detecting Transactional Bugs in Database Engines via Graph-Based Oracle Construction](https://www.usenix.org/system/files/osdi23-jiang.pdf) [[OSDI](https://github.com/JZuming/TxCheck) 23]
 - [Differentially testing database transactions for fun and profit](http://tcse.cn/~wsdou/papers/2022-issta-grand.pdf) [[ISSTA](https://github.com/tcse-iscas/Grand) 22]
+- [Ozz: identifying kernel out-of-order concurrency bugs with In-vivo memory access reordering](https://gts3.org/assets/papers/2024/jeong:ozz.pdf) [[SOSP](https://github.com/casys-kaist/ozz) 24]
 
 ### Fuzzing
 
@@ -142,6 +141,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Testing Database Engines via Pivoted Query Synthesis](https://www.usenix.org/system/files/osdi20-rigger.pdf) [[OSDI](https://www.usenix.org/conference/osdi20/presentation/rigger) 20]
 - [Detecting Optimization Bugs in Database Engines via Non-Optimizing Reference Engine Construction](https://dl.acm.org/doi/pdf/10.1145/3368089.3409710) [FSE 20]
 - [When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection](https://dl.acm.org/doi/10.14778/3681954.3681980) [[VLDB](https://github.com/dsrhaslab/lazyfs) 24]
+- [Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection](https://doi.org/10.1145/3694715.3695979) [[SOSP](https://github.com/OrderLab/Anduril) 24]
 
 ### Root Cause Analyze
 
