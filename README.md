@@ -76,7 +76,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Towards Optimal Transaction Scheduling](https://dl.acm.org/doi/10.14778/3681954.3681956) [[VLDB](https://github.com/audreyccheng/transaction-scheduling) 24]
 
 ### Transaction
-
+- [FC: Adaptive Atomic Commit via Failure Detection](https://ieeexplore.ieee.org/document/10597727) [ICDE 24]
+- [LCL: A Lock Chain Length-based Distributed  Algorithm for Deadlock Detection and Resolution](https://ieeexplore.ieee.org/document/10184686) [ICDE 23]
 - [Transaction Scheduling: From Conflicts to Runtime Conflicts](https://dl.acm.org/doi/abs/10.1145/3588706) [SIGMOD 23]
 - [Towards a Practical Database Management System with Verifiable ACID Properties and Transaction Correctness](https://doi.org/10.1145/3514221.3517851) [SIGMOD 22]
 - [Skeena: Efficient and Consistent Cross-Engine Transactions](https://doi.org/10.1145/3514221.3526171) [SIGMOD 22]
@@ -155,6 +156,12 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 - [Effective fault localization and context‐aware debugging for concurrent programs](https://onlinelibrary.wiley.com/doi/10.1002/stvr.1797) [Softw Test Verif Reliab 22]
 - [Fault Localization with Code Coverage Representation Learning](https://dl.acm.org/doi/10.1109/ICSE43902.2021.00067) [ICSE 21]
+
+### Distributed System Testing
+
+- [Greybox Fuzzing of Distributed Systems](https://dl.acm.org/doi/10.1145/3576915.3623097) [CCS 23]
+- [An Analysis of Network-Partitioning Failures in Cloud Systems](https://www.usenix.org/conference/osdi18/presentation/alquraan) [OSDI 18]
+- [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://dl.acm.org/doi/10.1145/3158134) [POPL 17]
 
 ## Other Paper List with similar topics
 
