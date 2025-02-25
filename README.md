@@ -134,6 +134,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [The Use of Likely Invariants as Feedback for Fuzzers](https://www.usenix.org/system/files/sec21-fioraldi.pdf) [SEC 21]
 - [Semantic fuzzing with zest](https://dl.acm.org/doi/10.1145/3293882.3330576) [ISSTA 19]
 - [SQLaser: detecting DBMS logic bugs with clause-guided fuzzing](http://arxiv.org/abs/2407.04294) preprint
+- [Blackbox fuzzing of distributed systems with multi-dimensional inputs and symmetry-based feedback pruning](https://dx.doi.org/10.14722/ndss.2025.241912) [[NDSS](https://dx.doi.org/10.14722/ndss.2025.241912) 25]
 
 ### Other Testing Methods
 
@@ -146,6 +147,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Detecting Optimization Bugs in Database Engines via Non-Optimizing Reference Engine Construction](https://dl.acm.org/doi/pdf/10.1145/3368089.3409710) [FSE 20]
 - [When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection](https://dl.acm.org/doi/10.14778/3681954.3681980) [[VLDB](https://github.com/dsrhaslab/lazyfs) 24]
 - [Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection](https://doi.org/10.1145/3694715.3695979) [[SOSP](https://github.com/OrderLab/Anduril) 24]
+- [Understanding and Reusing Test Suites Across Database Systems](https://doi.org/10.1145/3698829) [SIGMOD 24]
 
 ### Root Cause Analyze
 
