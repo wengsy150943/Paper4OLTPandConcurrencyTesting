@@ -133,6 +133,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [PINOLO: Detecting Logical Bugs in Database Management Systems with Approximate Query Synthesis](https://www.usenix.org/system/files/atc23-hao.pdf) [ATC 23]
 - [The Use of Likely Invariants as Feedback for Fuzzers](https://www.usenix.org/system/files/sec21-fioraldi.pdf) [SEC 21]
 - [Semantic fuzzing with zest](https://dl.acm.org/doi/10.1145/3293882.3330576) [ISSTA 19]
+- [SQLaser: detecting DBMS logic bugs with clause-guided fuzzing](http://arxiv.org/abs/2407.04294) preprint
 
 ### Other Testing Methods
 
