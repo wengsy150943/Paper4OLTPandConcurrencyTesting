@@ -76,7 +76,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Towards Optimal Transaction Scheduling](https://dl.acm.org/doi/10.14778/3681954.3681956) [[VLDB](https://github.com/audreyccheng/transaction-scheduling) 24]
 
 ### Transaction
-
+- [FC: Adaptive Atomic Commit via Failure Detection](https://ieeexplore.ieee.org/document/10597727) [ICDE 24]
+- [LCL: A Lock Chain Length-based Distributed  Algorithm for Deadlock Detection and Resolution](https://ieeexplore.ieee.org/document/10184686) [ICDE 23]
 - [Transaction Scheduling: From Conflicts to Runtime Conflicts](https://dl.acm.org/doi/abs/10.1145/3588706) [SIGMOD 23]
 - [Towards a Practical Database Management System with Verifiable ACID Properties and Transaction Correctness](https://doi.org/10.1145/3514221.3517851) [SIGMOD 22]
 - [Skeena: Efficient and Consistent Cross-Engine Transactions](https://doi.org/10.1145/3514221.3526171) [SIGMOD 22]
@@ -128,6 +129,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [PINOLO: Detecting Logical Bugs in Database Management Systems with Approximate Query Synthesis](https://www.usenix.org/system/files/atc23-hao.pdf) [ATC 23]
 - [The Use of Likely Invariants as Feedback for Fuzzers](https://www.usenix.org/system/files/sec21-fioraldi.pdf) [SEC 21]
 - [Semantic fuzzing with zest](https://dl.acm.org/doi/10.1145/3293882.3330576) [ISSTA 19]
+- [SQLaser: detecting DBMS logic bugs with clause-guided fuzzing](http://arxiv.org/abs/2407.04294) preprint
+- [Blackbox fuzzing of distributed systems with multi-dimensional inputs and symmetry-based feedback pruning](https://dx.doi.org/10.14722/ndss.2025.241912) [[NDSS](https://dx.doi.org/10.14722/ndss.2025.241912) 25]
 
 ### Anomaly Detection
 
@@ -149,6 +152,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Detecting Optimization Bugs in Database Engines via Non-Optimizing Reference Engine Construction](https://dl.acm.org/doi/pdf/10.1145/3368089.3409710) [FSE 20]
 - [When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection](https://dl.acm.org/doi/10.14778/3681954.3681980) [[VLDB](https://github.com/dsrhaslab/lazyfs) 24]
 - [Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection](https://doi.org/10.1145/3694715.3695979) [[SOSP](https://github.com/OrderLab/Anduril) 24]
+- [Understanding and Reusing Test Suites Across Database Systems](https://doi.org/10.1145/3698829) [SIGMOD 24]
 
 ### Root Cause Analyze
 
@@ -160,6 +164,12 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 - [Effective fault localization and context‐aware debugging for concurrent programs](https://onlinelibrary.wiley.com/doi/10.1002/stvr.1797) [Softw Test Verif Reliab 22]
 - [Fault Localization with Code Coverage Representation Learning](https://dl.acm.org/doi/10.1109/ICSE43902.2021.00067) [ICSE 21]
+
+### Distributed System Testing
+
+- [Greybox Fuzzing of Distributed Systems](https://dl.acm.org/doi/10.1145/3576915.3623097) [CCS 23]
+- [An Analysis of Network-Partitioning Failures in Cloud Systems](https://www.usenix.org/conference/osdi18/presentation/alquraan) [OSDI 18]
+- [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://dl.acm.org/doi/10.1145/3158134) [POPL 17]
 
 ## Other Paper List with similar topics
 
