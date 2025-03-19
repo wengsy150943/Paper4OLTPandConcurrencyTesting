@@ -91,13 +91,9 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Unifying Timestamp with Transaction Ordering for MVCC with Decentralized Scalar Timestamp](https://www.usenix.org/conference/nsdi21/presentation/wei) [NSDI 21]
 - [Knock Out 2PC with Practicality Intact: a High-performance and General Distributed Transaction Protocol](https://arxiv.org/pdf/2302.12517) [ICDE 23]
 - [Lion: Minimizing Distributed Transactions through Adaptive Replica Provision](https://arxiv.org/pdf/2403.11221) [ICDE 24]
-
-### Anomaly Detection
-
-- [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
-- [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [ [ICSE](https://github.com/criszy/Troc) 23]
-- [Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching](http://arxiv.org/abs/2201.02944) [ICSE 22]
-- [IsoVista: Black-box Checking Database Isolation Guarantees](https://www.vldb.org/pvldb/vol17/p4325-liu.pdf) [[VLDB](https://github.com/hengxin/IsoVista) 24]
+- [Reasoning about weak isolation levels in separation logic](http://arxiv.org/abs/2501.14421) [preprint]
+- [Repairing serializability bugs in distributed database programs via automated schema refactoring](http://arxiv.org/abs/2103.05573) [PLDI 21]
+- [CCaaLF: concurrency control as a learnable function](http://arxiv.org/abs/2503.10036) [preprint]
 
 ### Benchmark
 
@@ -105,7 +101,6 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC 15]
 - [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
 - [CDSBen: Benchmarking the Performance of Storage Services in Cloud-native Database System at ByteDance](https://www.vldb.org/pvldb/vol16/p3584-tang.pdf) [VLDB 23]
-- [Leopard: A Black-Box Approach for Efficiently Verifying Various Isolation Levels](https://ieeexplore.ieee.org/abstract/document/10184872) [ICDE 23]
 - [DB-MAGS: Multi-Anomaly Data Generation System for Transactional Databases](https://www.vldb.org/pvldb/vol17/p4497-shen.pdf) [[VLDB](https://github.com/qifeng1128/DB-MAGS) 24]
 
 ## Testing
@@ -122,6 +117,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Detecting Transactional Bugs in Database Engines via Graph-Based Oracle Construction](https://www.usenix.org/system/files/osdi23-jiang.pdf) [[OSDI](https://github.com/JZuming/TxCheck) 23]
 - [Differentially testing database transactions for fun and profit](http://tcse.cn/~wsdou/papers/2022-issta-grand.pdf) [[ISSTA](https://github.com/tcse-iscas/Grand) 22]
 - [Ozz: identifying kernel out-of-order concurrency bugs with In-vivo memory access reordering](https://gts3.org/assets/papers/2024/jeong:ozz.pdf) [[SOSP](https://github.com/casys-kaist/ozz) 24]
+- [DBStorm: Generating Various Effective Workloads for Testing Isolation Levels](https://dl.acm.org/doi/abs/10.1145/3650212.3680318) [ISSTA 24]
 
 ### Fuzzing
 
@@ -132,6 +128,15 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [PINOLO: Detecting Logical Bugs in Database Management Systems with Approximate Query Synthesis](https://www.usenix.org/system/files/atc23-hao.pdf) [ATC 23]
 - [The Use of Likely Invariants as Feedback for Fuzzers](https://www.usenix.org/system/files/sec21-fioraldi.pdf) [SEC 21]
 - [Semantic fuzzing with zest](https://dl.acm.org/doi/10.1145/3293882.3330576) [ISSTA 19]
+
+### Anomaly Detection
+
+- [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
+- [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [ [ICSE](https://github.com/criszy/Troc) 23]
+- [Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching](http://arxiv.org/abs/2201.02944) [ICSE 22]
+- [IsoVista: Black-box Checking Database Isolation Guarantees](https://www.vldb.org/pvldb/vol17/p4325-liu.pdf) [[VLDB](https://github.com/hengxin/IsoVista) 24]
+- [Leopard: A Black-Box Approach for Efficiently Verifying Various Isolation Levels](https://ieeexplore.ieee.org/abstract/document/10184872) [ICDE 23]
+- [Vbox: efficient black-box serializability verification](http://arxiv.org/abs/2503.05163) [preprint]
 
 ### Other Testing Methods
 
