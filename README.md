@@ -95,6 +95,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Reasoning about weak isolation levels in separation logic](http://arxiv.org/abs/2501.14421) [preprint]
 - [Repairing serializability bugs in distributed database programs via automated schema refactoring](http://arxiv.org/abs/2103.05573) [PLDI 21]
 - [CCaaLF: concurrency control as a learnable function](http://arxiv.org/abs/2503.10036) [preprint]
+- [Low-latency transaction scheduling via userspace interrupts](https://kaisonghuang.github.io/resources/preemptdb-preprint.pdf) [SIGMOD 25]
 
 ### Benchmark
 
