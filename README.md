@@ -81,6 +81,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 - [Online Timestamp-based Transactional Isolation Checking of Database Systems](https://arxiv.org/abs/2504.01477) [ICDE 25]
 - [VerIso: Verifiable Isolation Guarantees for Database Transactions](https://www.vldb.org/pvldb/vol18/p1362-ghasemirad.pdf) [VLDB 25]
+- [Online Schema Evolution is (Almost) Free for Snapshot Databases](https://www.vldb.org/pvldb/vol16/p140-hu.pdf) [VLDB 23]
 - [FC: Adaptive Atomic Commit via Failure Detection](https://ieeexplore.ieee.org/document/10597727) [ICDE 24]
 - [LCL: A Lock Chain Length-based Distributed  Algorithm for Deadlock Detection and Resolution](https://ieeexplore.ieee.org/document/10184686) [ICDE 23]
 - [Transaction Scheduling: From Conflicts to Runtime Conflicts](https://dl.acm.org/doi/abs/10.1145/3588706) [SIGMOD 23]
