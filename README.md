@@ -57,6 +57,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 
 ### Concurrency Control
 
+- [OOCC: One-round Optimistic Concurrency Control for Read-Only Disaggregated Transactions](https://madsys.cs.tsinghua.edu.cn/publication/oocc-one-round-optimistic-concurrency-control-for-read-only-disaggregated-transactions/ICDE25-wu.pdf) [ICDE 25]
+- [A Hybrid Approach to Integrating Deterministic and Non-deterministic Concurrency Control in Database Systems](https://www.vldb.org/pvldb/vol18/p1376-lu.pdf) [VLDB 25]
 - [Polaris: Enabling Transaction Priority in Optimistic Concurrency Control](https://dl.acm.org/doi/abs/10.1145/3588724) [SIGMOD 23]
 - [Diva: Making MVCC Systems HTAP-Friendly](https://doi.org/10.1145/3514221.3526135) [SIGMOD 22]
 - [Plor: General Transactions with Predictable, Low Tail Latency](https://doi.org/10.1145/3514221.3517879) [SIGMOD 22]
@@ -76,6 +78,10 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Towards Optimal Transaction Scheduling](https://dl.acm.org/doi/10.14778/3681954.3681956) [[VLDB](https://github.com/audreyccheng/transaction-scheduling) 24]
 
 ### Transaction
+
+- [Online Timestamp-based Transactional Isolation Checking of Database Systems](https://arxiv.org/abs/2504.01477) [ICDE 25]
+- [VerIso: Verifiable Isolation Guarantees for Database Transactions](https://www.vldb.org/pvldb/vol18/p1362-ghasemirad.pdf) [VLDB 25]
+- [Online Schema Evolution is (Almost) Free for Snapshot Databases](https://www.vldb.org/pvldb/vol16/p140-hu.pdf) [VLDB 23]
 - [FC: Adaptive Atomic Commit via Failure Detection](https://ieeexplore.ieee.org/document/10597727) [ICDE 24]
 - [LCL: A Lock Chain Length-based Distributed  Algorithm for Deadlock Detection and Resolution](https://ieeexplore.ieee.org/document/10184686) [ICDE 23]
 - [Transaction Scheduling: From Conflicts to Runtime Conflicts](https://dl.acm.org/doi/abs/10.1145/3588706) [SIGMOD 23]
@@ -134,6 +140,8 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Blackbox fuzzing of distributed systems with multi-dimensional inputs and symmetry-based feedback pruning](https://dx.doi.org/10.14722/ndss.2025.241912) [[NDSS](https://dx.doi.org/10.14722/ndss.2025.241912) 25]
 
 ### Anomaly Detection
+
+- [Boosting End-to-End Database Isolation Checking via Mini-Transactions](https://www.arxiv.org/abs/2504.02344) [ICDE 25]
 
 - [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
 - [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [ [ICSE](https://github.com/criszy/Troc) 23]
