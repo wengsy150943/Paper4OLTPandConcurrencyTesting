@@ -102,6 +102,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Repairing serializability bugs in distributed database programs via automated schema refactoring](http://arxiv.org/abs/2103.05573) [PLDI 21]
 - [CCaaLF: concurrency control as a learnable function](http://arxiv.org/abs/2503.10036) [preprint]
 - [Low-latency transaction scheduling via userspace interrupts](https://kaisonghuang.github.io/resources/preemptdb-preprint.pdf) [SIGMOD 25]
+- [Are database system researchers making correct assumptions about transaction workloads?](https://dl.acm.org/doi/abs/10.1145/3725268) [SIGMOD 25]
 
 ### Benchmark
 
