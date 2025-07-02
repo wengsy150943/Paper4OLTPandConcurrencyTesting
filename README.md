@@ -76,6 +76,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/system/files/osdi24-zhang-ming.pdf) [OSDI 24]
 - [Massively Parallel Multi-Versioned Transaction Processing](https://www.usenix.org/system/files/osdi24-qian.pdf) [OSDI 24]
 - [Towards Optimal Transaction Scheduling](https://dl.acm.org/doi/10.14778/3681954.3681956) [[VLDB](https://github.com/audreyccheng/transaction-scheduling) 24]
+- [CCaas: Concurrency Control As a Service](https://github.com/iDC-NEU/CCaaS) [[VLDB](https://github.com/iDC-NEU/CCaaS) 25]
 
 ### Transaction
 
@@ -103,6 +104,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [CCaaLF: concurrency control as a learnable function](http://arxiv.org/abs/2503.10036) [preprint]
 - [Low-latency transaction scheduling via userspace interrupts](https://kaisonghuang.github.io/resources/preemptdb-preprint.pdf) [SIGMOD 25]
 - [Are database system researchers making correct assumptions about transaction workloads?](https://dl.acm.org/doi/abs/10.1145/3725268) [SIGMOD 25]
+- [Sonata: Multi-Database Transactions Made Fast and Serializable] [VLDB 25]
 
 ### Benchmark
 
@@ -139,6 +141,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Semantic fuzzing with zest](https://dl.acm.org/doi/10.1145/3293882.3330576) [ISSTA 19]
 - [SQLaser: detecting DBMS logic bugs with clause-guided fuzzing](http://arxiv.org/abs/2407.04294) preprint
 - [Blackbox fuzzing of distributed systems with multi-dimensional inputs and symmetry-based feedback pruning](https://dx.doi.org/10.14722/ndss.2025.241912) [[NDSS](https://dx.doi.org/10.14722/ndss.2025.241912) 25]
+- [Fucci: Database Transaction Fuzzing via Random Conflict Construction and Multilevel Constraint Solving](https://www.vldb.org/pvldb/vol18/p1879-li.pdf) [VLDB 25]
 
 ### Anomaly Detection
 
