@@ -78,6 +78,10 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Towards Optimal Transaction Scheduling](https://dl.acm.org/doi/10.14778/3681954.3681956) [[VLDB](https://github.com/audreyccheng/transaction-scheduling) 24]
 - [CCaas: Concurrency Control As a Service](https://github.com/iDC-NEU/CCaaS) [[VLDB](https://github.com/iDC-NEU/CCaaS) 25]
 
+Other blogs and repos about isolation level anomalies.
+- [Transaction isolation anomalies](https://sitano.github.io/theory/databases/2019/07/30/tx-isolation-anomalies/)
+- [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
+
 ### Transaction
 
 - [Online Timestamp-based Transactional Isolation Checking of Database Systems](https://arxiv.org/abs/2504.01477) [ICDE 25]
@@ -146,7 +150,6 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 ### Anomaly Detection
 
 - [Boosting End-to-End Database Isolation Checking via Mini-Transactions](https://www.arxiv.org/abs/2504.02344) [ICDE 25]
-
 - [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
 - [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [ [ICSE](https://github.com/criszy/Troc) 23]
 - [Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching](http://arxiv.org/abs/2201.02944) [ICSE 22]
