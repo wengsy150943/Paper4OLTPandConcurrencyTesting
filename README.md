@@ -79,6 +79,10 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [OOCC: One-round Optimistic Concurrency Control for Read-Only Disaggregated Transactions](https://madsys.cs.tsinghua.edu.cn/publication/oocc-one-round-optimistic-concurrency-control-for-read-only-disaggregated-transactions/ICDE25-wu.pdf) [ICDE 25]
 - [A Hybrid Approach to Integrating Deterministic and Non-deterministic Concurrency Control in Database Systems](https://www.vldb.org/pvldb/vol18/p1376-lu.pdf) [VLDB 25]
 
+Other blogs and repos about isolation level anomalies.
+- [Transaction isolation anomalies](https://sitano.github.io/theory/databases/2019/07/30/tx-isolation-anomalies/)
+- [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
+
 ### Transaction
 
 - [Repairing serializability bugs in distributed database programs via automated schema refactoring](http://arxiv.org/abs/2103.05573) [PLDI 21]
@@ -138,6 +142,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [Leopard: A Black-Box Approach for Efficiently Verifying Various Isolation Levels](https://ieeexplore.ieee.org/abstract/document/10184872) [ICDE 23]
 - [IsoVista: Black-box Checking Database Isolation Guarantees](https://www.vldb.org/pvldb/vol17/p4325-liu.pdf) [[VLDB](https://github.com/hengxin/IsoVista) 24]
 - [Detecting Isolation Anomalies in Relational DBMSs](https://dl.acm.org/doi/10.1145/3728953) [ISSTA 25]
+- [Boosting End-to-End Database Isolation Checking via Mini-Transactions](https://www.arxiv.org/abs/2504.02344) [ICDE 25]
 - [Boosting End-to-End Database Isolation Checking via Mini-Transactions](https://www.arxiv.org/abs/2504.02344) [ICDE 25]
 - [Vbox: efficient black-box serializability verification](http://arxiv.org/abs/2503.05163) [preprint]
 
