@@ -43,6 +43,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [TDSQL: Tencent Distributed Database System](https://www.vldb.org/pvldb/vol17/p3869-chen.pdf) [VLDB 24]
 - [LazyLog: A New Shared Log Abstraction for Low-Latency Applications](https://doi.org/10.1145/3694715.3695983) [[SOSP](https://github.com/dassl-uiuc/LazyLog-Artifact) 24]
 - [TXSQL: lock optimizations towards high contented workloads](https://dl.acm.org/doi/10.1145/3722212.3724457) [SIGMOD 25]
+- [MD-MVCC: Multi-version Concurrency Control for Schema Changes in Azure SQL Database](https://www.vldb.org/pvldb/vol18/p4791-antonopoulos.pdf) [VLDB 25]
 
 ### Storage
 
@@ -55,6 +56,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services](https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf) [VLDB 24]
 - [LeanStore: A High-Performance Storage Engine for NVMe SSDs](https://www.vldb.org/pvldb/vol17/p4536-leis.pdf) [VLDB 24]
 - [PALF: Replicated Write-Ahead Logging for Distributed Databases](https://www.vldb.org/pvldb/vol17/p3745-xu.pdf) [[VLDB](https://github.com/oceanbase/oceanbase/tree/develop/src/logservice/palf) 24]
+- [From FASTER to F2: Evolving Concurrent Key-Value Store Designs for Large Skewed Workloads](https://www.vldb.org/pvldb/vol18/p4910-kanellis.pdf) [[VLDB](https://github.com/microsoft/FASTER/tree/main/cc) 25]
 
 ### Concurrency Control
 
@@ -111,6 +113,9 @@ Other blogs and repos about isolation level anomalies.
 - [VerIso: Verifiable Isolation Guarantees for Database Transactions](https://www.vldb.org/pvldb/vol18/p1362-ghasemirad.pdf) [VLDB 25]
 - [CCaaLF: concurrency control as a learnable function](http://arxiv.org/abs/2503.10036) [preprint]
 - [Reasoning about weak isolation levels in separation logic](http://arxiv.org/abs/2501.14421) [preprint]
+- [Enhancing Transaction Processing through Indirection Skipping](https://www.vldb.org/pvldb/vol18/p4104-otaki.pdf) [[VLDB](https://github.com/rotaki/LIPAH/tree/vldb2025) 25]
+- [TxnSails: Achieving Serializable Transaction Scheduling with Self-Adaptive Isolation Level Selection](https://www.vldb.org/pvldb/vol18/p4227-lu.pdf) [[VLDB](https://github.com/dbiir/TxnSailsServer) 25]
+
 
 
 ### Benchmark
