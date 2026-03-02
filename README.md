@@ -57,6 +57,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [LeanStore: A High-Performance Storage Engine for NVMe SSDs](https://www.vldb.org/pvldb/vol17/p4536-leis.pdf) [VLDB 24]
 - [PALF: Replicated Write-Ahead Logging for Distributed Databases](https://www.vldb.org/pvldb/vol17/p3745-xu.pdf) [[VLDB](https://github.com/oceanbase/oceanbase/tree/develop/src/logservice/palf) 24]
 - [From FASTER to F2: Evolving Concurrent Key-Value Store Designs for Large Skewed Workloads](https://www.vldb.org/pvldb/vol18/p4910-kanellis.pdf) [[VLDB](https://github.com/microsoft/FASTER/tree/main/cc) 25]
+- [Skybridge: Bounded Staleness for Distributed Caches](https://www.usenix.org/system/files/osdi25-lyerly.pdf) [OSDI 25]
 
 ### Concurrency Control
 
@@ -137,6 +138,8 @@ Other blogs and repos about isolation level anomalies.
 - [Sequence-Oriented DBMS Fuzzing](https://ieeexplore.ieee.org/document/10184875/) [ICDE 23]
 - [DBStorm: Generating Various Effective Workloads for Testing Isolation Levels](https://dl.acm.org/doi/abs/10.1145/3650212.3680318) [ISSTA 24]
 - [Fucci: Database Transaction Fuzzing via Random Conflict Construction and Multilevel Constraint Solving](https://www.vldb.org/pvldb/vol18/p1879-li.pdf) [VLDB 25]
+- [Simple testing can expose most critical transaction bugs: understanding and detecting write-specific serializability violations in database systems](https://dl.acm.org/doi/10.14778/3742728.3742747) [VLDB 25]
+- [Anomaly Pattern-guided Transaction Bug Testing in Relational Databases](http://arxiv.org/abs/2511.17377) [preprint]
 
 **Transaction Anomaly Detection:**
 
@@ -145,7 +148,9 @@ Other blogs and repos about isolation level anomalies.
 - [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
 - [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [ [ICSE](https://github.com/criszy/Troc) 23]
 - [Leopard: A Black-Box Approach for Efficiently Verifying Various Isolation Levels](https://ieeexplore.ieee.org/abstract/document/10184872) [ICDE 23]
+- [Viper: A Fast Snapshot Isolation Checker](https://dl.acm.org/doi/10.1145/3552326.3567492) [EuroSys 23]
 - [IsoVista: Black-box Checking Database Isolation Guarantees](https://www.vldb.org/pvldb/vol17/p4325-liu.pdf) [[VLDB](https://github.com/hengxin/IsoVista) 24]
+- [Plume: efficient and complete black-box checking of weak isolation levels](https://doi.org/10.1145/3689742) [OOPSLA 24]
 - [Detecting Isolation Anomalies in Relational DBMSs](https://dl.acm.org/doi/10.1145/3728953) [ISSTA 25]
 - [Boosting End-to-End Database Isolation Checking via Mini-Transactions](https://www.arxiv.org/abs/2504.02344) [ICDE 25]
 - [Boosting End-to-End Database Isolation Checking via Mini-Transactions](https://www.arxiv.org/abs/2504.02344) [ICDE 25]
@@ -178,7 +183,9 @@ Other blogs and repos about isolation level anomalies.
 - [Detecting metadata-related logic bugs in database systems via raw database construction](https://doi.org/10.14778/3659437.3659445) [VLDB 24]
 - [Keep it simple: testing databases via differential query plans](https://bajinsheng.github.io/assets/pdf/dqp_sigmod24.pdf) [[SIGMOD](https://github.com/sqlancer/sqlancer/issues/918) 24]
 - [Understanding and Reusing Test Suites Across Database Systems](https://doi.org/10.1145/3698829) [SIGMOD 24]
+- [SQLess: dialect-agnostic SQL query simplification](https://dl.acm.org/doi/10.1145/3650212.3680317) [ISSTA 24]
 - [SQLaser: detecting DBMS logic bugs with clause-guided fuzzing](http://arxiv.org/abs/2407.04294) [preprint]
+- [Automated discovery of test oracles for database management systems using LLMs](http://arxiv.org/abs/2510.06663) [preprint]
 
 
 ### Root Cause Analyze
@@ -190,9 +197,11 @@ Other blogs and repos about isolation level anomalies.
 - [BALANCE: Bayesian Linear Attribution for Root Cause Localization](http://arxiv.org/abs/2301.13572) [SIGMOD 23]
 - [Relational Debugging --- Pinpointing Root Causes of Performance Problems](https://www.usenix.org/system/files/osdi23-ren.pdf) [[OSDI](https://gitlab.dsrg.utoronto.ca/dsrg/perspect) 23]
 - [Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection](https://doi.org/10.1145/3694715.3695979) [[SOSP](https://github.com/OrderLab/Anduril) 24]
+- [Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems](https://www.usenix.org/system/files/atc25-dong.pdf) [ATC 25]
 
 ### Bug Reproduction
 
+- [LEAN: simplifying concurrency bug reproduction via replay-supported execution reduction](https://dl.acm.org/doi/10.1145/2398857.2384649) [OOPSLA 12]
 - [R^3: Record-Replay-Retroaction for Database-Backed Applications](https://www.vldb.org/pvldb/vol16/p3085-li.pdf) [VLDB 23]
 - [When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection](https://dl.acm.org/doi/10.14778/3681954.3681980) [[VLDB](https://github.com/dsrhaslab/lazyfs) 24]
 
