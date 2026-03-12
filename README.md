@@ -58,6 +58,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [PALF: Replicated Write-Ahead Logging for Distributed Databases](https://www.vldb.org/pvldb/vol17/p3745-xu.pdf) [[VLDB](https://github.com/oceanbase/oceanbase/tree/develop/src/logservice/palf) 24]
 - [From FASTER to F2: Evolving Concurrent Key-Value Store Designs for Large Skewed Workloads](https://www.vldb.org/pvldb/vol18/p4910-kanellis.pdf) [[VLDB](https://github.com/microsoft/FASTER/tree/main/cc) 25]
 - [Skybridge: Bounded Staleness for Distributed Caches](https://www.usenix.org/system/files/osdi25-lyerly.pdf) [OSDI 25]
+- [Counting Is All You Need for Instant Tuple Discovery: Enabling Real-Time HTAP in Standalone DBMSs](https://dl.acm.org/doi/10.1145/3769775) [SIGMOD 25]
 
 ### Concurrency Control
 
@@ -167,6 +168,7 @@ Other blogs and repos about isolation level anomalies.
 - [Greybox Fuzzing of Distributed Systems](https://dl.acm.org/doi/10.1145/3576915.3623097) [CCS 23]
 - [Ozz: identifying kernel out-of-order concurrency bugs with In-vivo memory access reordering](https://gts3.org/assets/papers/2024/jeong:ozz.pdf) [[SOSP](https://github.com/casys-kaist/ozz) 24]
 - [Blackbox fuzzing of distributed systems with multi-dimensional inputs and symmetry-based feedback pruning](https://dx.doi.org/10.14722/ndss.2025.241912) [[NDSS](https://dx.doi.org/10.14722/ndss.2025.241912) 25]
+- [Fast Verification of Strong Database Isolation](https://doi.org/10.14778/3785297.3785300) [[VLDB](https://github.com/CzxingcHen/VeriStrong) 25]
 
 ### Testing for a single SQL
 
