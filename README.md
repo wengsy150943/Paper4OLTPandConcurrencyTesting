@@ -141,6 +141,8 @@ Other blogs and repos about isolation level anomalies.
 - [Fucci: Database Transaction Fuzzing via Random Conflict Construction and Multilevel Constraint Solving](https://www.vldb.org/pvldb/vol18/p1879-li.pdf) [VLDB 25]
 - [Simple testing can expose most critical transaction bugs: understanding and detecting write-specific serializability violations in database systems](https://dl.acm.org/doi/10.14778/3742728.3742747) [VLDB 25]
 - [Anomaly Pattern-guided Transaction Bug Testing in Relational Databases](http://arxiv.org/abs/2511.17377) [preprint]
+- [Addressing Test Flakiness: Practical Approaches in a Database-Reliant Industrial System](https://carolin-brandt.de/publications/vegelien-icseseip26.pdf) [ICSE 26]
+- [On the Flakiness of LLM-Generated Tests for Industrial and Open-Source Database Management Systems](https://arxiv.org/pdf/2601.08998) [ICSE 26]
 
 **Transaction Anomaly Detection:**
 
@@ -169,6 +171,7 @@ Other blogs and repos about isolation level anomalies.
 - [Ozz: identifying kernel out-of-order concurrency bugs with In-vivo memory access reordering](https://gts3.org/assets/papers/2024/jeong:ozz.pdf) [[SOSP](https://github.com/casys-kaist/ozz) 24]
 - [Blackbox fuzzing of distributed systems with multi-dimensional inputs and symmetry-based feedback pruning](https://dx.doi.org/10.14722/ndss.2025.241912) [[NDSS](https://dx.doi.org/10.14722/ndss.2025.241912) 25]
 - [Fast Verification of Strong Database Isolation](https://doi.org/10.14778/3785297.3785300) [[VLDB](https://github.com/CzxingcHen/VeriStrong) 25]
+- [Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems](https://www.usenix.org/system/files/atc25-dong.pdf) [ATC 25]
 
 ### Testing for a single SQL
 
@@ -199,7 +202,6 @@ Other blogs and repos about isolation level anomalies.
 - [BALANCE: Bayesian Linear Attribution for Root Cause Localization](http://arxiv.org/abs/2301.13572) [SIGMOD 23]
 - [Relational Debugging --- Pinpointing Root Causes of Performance Problems](https://www.usenix.org/system/files/osdi23-ren.pdf) [[OSDI](https://gitlab.dsrg.utoronto.ca/dsrg/perspect) 23]
 - [Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection](https://doi.org/10.1145/3694715.3695979) [[SOSP](https://github.com/OrderLab/Anduril) 24]
-- [Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems](https://www.usenix.org/system/files/atc25-dong.pdf) [ATC 25]
 
 ### Bug Reproduction
 
