@@ -59,6 +59,9 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [From FASTER to F2: Evolving Concurrent Key-Value Store Designs for Large Skewed Workloads](https://www.vldb.org/pvldb/vol18/p4910-kanellis.pdf) [[VLDB](https://github.com/microsoft/FASTER/tree/main/cc) 25]
 - [Skybridge: Bounded Staleness for Distributed Caches](https://www.usenix.org/system/files/osdi25-lyerly.pdf) [OSDI 25]
 - [Counting Is All You Need for Instant Tuple Discovery: Enabling Real-Time HTAP in Standalone DBMSs](https://dl.acm.org/doi/10.1145/3769775) [SIGMOD 25]
+- [ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads](https://www.vldb.org/pvldb/vol19/p958-liu.pdf) [VLDB 26]
+- [Terark-DS: A High-Performance and Storage-Efficient Key-Value Separation Storage Engine on Disaggregated Storage](https://www.vldb.org/pvldb/vol19/p822-zhang.pdf) [VLDB 26]
+
 
 ### Concurrency Control
 
