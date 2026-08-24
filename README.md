@@ -1,8 +1,8 @@
-# Paper4OLTPandConcurrencyTesting
+# awesome-dbms-testing
 
-This repository lists papers with topics covering OLTP and error testing (especially concurrency-related testing).
+This repository lists papers with topics covering DBMS testing, OLTP, and error testing (especially concurrency-related testing).
 
-New PR is welcome for any material that you think should be included in this collection. .
+New PR is welcome for any material that you think should be included in this collection.
 
 If you want to add new paper, please follow link format:
 
@@ -10,7 +10,20 @@ If you want to add new paper, please follow link format:
 paperName(with access link) [MeetingName(with open source code, if exists) Year]
 ```
 
-[TOC]
+## Table of Contents
+
+- [Survey and Tutorial](#survey-and-tutorial)
+- [OLTP Systems](#oltp-systems)
+- [DBMS Testing](#dbms-testing)
+  - [Concurrency & Isolation Testing](#concurrency--isolation-testing)
+  - [SQL Correctness Testing](#sql-correctness-testing)
+  - [Performance Testing](#performance-testing)
+  - [Non-Relational DBMS Testing](#non-relational-dbms-testing)
+  - [Test Infrastructure & Benchmark](#test-infrastructure--benchmark)
+  - [Root Cause Analysis](#root-cause-analysis)
+  - [Bug Reproduction](#bug-reproduction)
+- [Related: Non-DBMS System Testing](#related-non-dbms-system-testing)
+- [Other Paper List with similar topics](#other-paper-list-with-similar-topics)
 
 ## Survey and Tutorial
 
@@ -20,13 +33,13 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [LLM for Data Management](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/p2031-li-vldb2024.pdf) [VLDB 24]
 - [Native Distributed Databases: Problems, Challenges and Opportunities](https://www.vldb.org/pvldb/vol17/p4217-xu.pdf) [VLDB 24]
 
-## OLTP
+## OLTP Systems
 
 ### Implementation
 
 - [CoroBase: coroutine-oriented main-memory database engine](https://dl.acm.org/doi/10.14778/3430915.3430932) [VLDB 21]
 - [P4DB - The Case for In-Network OLTP](https://doi.org/10.1145/3514221.3517825) [SIGMOD 22]
-- [GaccO - A GPU-accelerated OLTP DBMS ](https://doi.org/10.1145/3514221.3517876)[SIGMOD 22]
+- [GaccO - A GPU-accelerated OLTP DBMS](https://doi.org/10.1145/3514221.3517876) [SIGMOD 22]
 - [Proteus: Autonomous Adaptive Storage for Mixed Workloads](https://doi.org/10.1145/3514221.3517834) [SIGMOD 22]
 - [GeoGauss: Strongly Consistent Coordinator-Free OLTP for Geo-Replicated SQL Database](https://dl.acm.org/doi/abs/10.1145/3588916) [SIGMOD 23]
 - [Progressive Partitioning for Parallelized Query Execution in Google's Napa](https://www.vldb.org/pvldb/vol16/p3475-sankaranarayanan.pdf) [VLDB 23]
@@ -62,7 +75,6 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads](https://www.vldb.org/pvldb/vol19/p958-liu.pdf) [VLDB 26]
 - [Terark-DS: A High-Performance and Storage-Efficient Key-Value Separation Storage Engine on Disaggregated Storage](https://www.vldb.org/pvldb/vol19/p822-zhang.pdf) [VLDB 26]
 
-
 ### Concurrency Control
 
 - [An evaluation of distributed concurrency control](https://dl.acm.org/doi/10.14778/3055540.3055548) [VLDB 17]
@@ -78,7 +90,7 @@ paperName(with access link) [MeetingName(with open source code, if exists) Year]
 - [NCC: Natural Concurrency Control for Strictly Serializable Datastores by Avoiding the Timestamp-Inversion Pitfall](https://www.usenix.org/conference/osdi23/presentation/lu) [OSDI 23]
 - [Polaris: Enabling Transaction Priority in Optimistic Concurrency Control](https://dl.acm.org/doi/abs/10.1145/3588724) [SIGMOD 23]
 - [Verifying vMVCC, a high-performance database using multi-version concurrency control](https://www.usenix.org/system/files/osdi23-chang.pdf) [OSDI 23]
-- [OptiQL: Robust Optimistic Locking for Memory-Optimized Indexes](https://www2.cs.sfu.ca/~tzwang/optiql.pdf) [[SIGMOD](https://github.com/sfu-dis/optiql)24]
+- [OptiQL: Robust Optimistic Locking for Memory-Optimized Indexes](https://www2.cs.sfu.ca/~tzwang/optiql.pdf) [[SIGMOD](https://github.com/sfu-dis/optiql) 24]
 - [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/system/files/osdi24-zhang-ming.pdf) [OSDI 24]
 - [Massively Parallel Multi-Versioned Transaction Processing](https://www.usenix.org/system/files/osdi24-qian.pdf) [OSDI 24]
 - [Towards Optimal Transaction Scheduling](https://dl.acm.org/doi/10.14778/3681954.3681956) [[VLDB](https://github.com/audreyccheng/transaction-scheduling) 24]
@@ -102,7 +114,7 @@ Other blogs and repos about isolation level anomalies.
 - [Fine-Grained Re-Execution for Efficient Batched Commit of Distributed Transactions](https://www.vldb.org/pvldb/vol16/p1930-dong.pdf) [VLDB 23]
 - [Epoxy: ACID Transactions Across Diverse Data Stores](https://www.vldb.org/pvldb/vol16/p2742-kraft.pdf) [VLDB 23]
 - [Online Schema Evolution is (Almost) Free for Snapshot Databases](https://www.vldb.org/pvldb/vol16/p140-hu.pdf) [VLDB 23]
-- [LCL: A Lock Chain Length-based Distributed  Algorithm for Deadlock Detection and Resolution](https://ieeexplore.ieee.org/document/10184686) [ICDE 23]
+- [LCL: A Lock Chain Length-based Distributed Algorithm for Deadlock Detection and Resolution](https://ieeexplore.ieee.org/document/10184686) [ICDE 23]
 - [Transaction Scheduling: From Conflicts to Runtime Conflicts](https://dl.acm.org/doi/abs/10.1145/3588706) [SIGMOD 23]
 - [Knock Out 2PC with Practicality Intact: a High-performance and General Distributed Transaction Protocol](https://arxiv.org/pdf/2302.12517) [ICDE 23]
 - [Chardonnay: Fast and General Datacenter Transactions for On-Disk Databases](https://www.usenix.org/conference/osdi23/presentation/eldeeb) [OSDI 23]
@@ -112,32 +124,18 @@ Other blogs and repos about isolation level anomalies.
 - [FC: Adaptive Atomic Commit via Failure Detection](https://ieeexplore.ieee.org/document/10597727) [ICDE 24]
 - [Low-latency transaction scheduling via userspace interrupts](https://kaisonghuang.github.io/resources/preemptdb-preprint.pdf) [SIGMOD 25]
 - [Are database system researchers making correct assumptions about transaction workloads?](https://dl.acm.org/doi/abs/10.1145/3725268) [SIGMOD 25]
-- [Sonata: Multi-Database Transactions Made Fast and Serializable] [VLDB 25]
+- [Sonata: Multi-Database Transactions Made Fast and Serializable](https://doi.org/10.14778/3748191.3748207) [VLDB 25]
 - [Many faces of ad hoc transactions](https://dl.acm.org/doi/10.1145/3708552) [ACM Comm. 25]
-- [Online Timestamp-based Transactional Isolation Checking of Database Systems](https://arxiv.org/abs/2504.01477) [ICDE 25]
 - [VerIso: Verifiable Isolation Guarantees for Database Transactions](https://www.vldb.org/pvldb/vol18/p1362-ghasemirad.pdf) [VLDB 25]
 - [CCaaLF: concurrency control as a learnable function](http://arxiv.org/abs/2503.10036) [preprint]
 - [Reasoning about weak isolation levels in separation logic](http://arxiv.org/abs/2501.14421) [preprint]
 - [Enhancing Transaction Processing through Indirection Skipping](https://www.vldb.org/pvldb/vol18/p4104-otaki.pdf) [[VLDB](https://github.com/rotaki/LIPAH/tree/vldb2025) 25]
 - [TxnSails: Achieving Serializable Transaction Scheduling with Self-Adaptive Isolation Level Selection](https://www.vldb.org/pvldb/vol18/p4227-lu.pdf) [[VLDB](https://github.com/dbiir/TxnSailsServer) 25]
 
+## DBMS Testing
 
+### Concurrency & Isolation Testing
 
-### Benchmark
-
-- [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC 15]
-- [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
-- [CDSBen: Benchmarking the Performance of Storage Services in Cloud-native Database System at ByteDance](https://www.vldb.org/pvldb/vol16/p3584-tang.pdf) [VLDB 23]
-- [DBPA: A Benchmark for Transactional Database Performance Anomalies](https://dl.acm.org/doi/abs/10.1145/3588926) [SIGMOD 23]
-- [DB-MAGS: Multi-Anomaly Data Generation System for Transactional Databases](https://www.vldb.org/pvldb/vol17/p4497-shen.pdf) [[VLDB](https://github.com/qifeng1128/DB-MAGS) 24]
-- [LST-Meter: Benchmarking Log-Structured Tables in the Cloud](https://arxiv.org/pdf/2305.01120.pdf) [SIGMOD 24]
-
-
-## Testing
-
-### Testing for Concurrent Operations
-
-**Testing DBMSs:**
 - [Differentially testing database transactions for fun and profit](http://tcse.cn/~wsdou/papers/2022-issta-grand.pdf) [[ISSTA](https://github.com/tcse-iscas/Grand) 22]
 - [Sequence-Oriented DBMS Fuzzing](https://ieeexplore.ieee.org/document/10184875/) [ICDE 23]
 - [DBStorm: Generating Various Effective Workloads for Testing Isolation Levels](https://dl.acm.org/doi/abs/10.1145/3650212.3680318) [ISSTA 24]
@@ -149,51 +147,30 @@ Other blogs and repos about isolation level anomalies.
 - [Coni: Detecting Database Connector Bugs via State-Aware Test Case Generation](https://conf.researchr.org/details/icse-2025/icse-2025-research-track/3/Coni-Detecting-Database-Connector-Bugs-via-State-Aware-Test-Case-Generation) [ICSE 25]
 - [Thanos: DBMS Bug Detection via Storage Engine Rotation Based Differential Testing](https://conf.researchr.org/details/icse-2025/icse-2025-research-track/15/Thanos-DBMS-Bug-Detection-via-Storage-Engine-Rotation-Based-Differential-Testing) [ICSE 25]
 - [DepState: Detecting Synchronization Failure Bugs in Distributed Database Management Systems](https://conf.researchr.org/details/issta-2025/issta-2025-papers/87/DepState-Detecting-Synchronization-Failure-Bugs-in-Distributed-Database-Management-S) [ISSTA 25]
-
-**Transaction Anomaly Detection:**
-
-- [Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching](http://arxiv.org/abs/2201.02944) [ICSE 22]
 - [Detecting Transactional Bugs in Database Engines via Graph-Based Oracle Construction](https://www.usenix.org/system/files/osdi23-jiang.pdf) [[OSDI](https://github.com/JZuming/TxCheck) 23]
-- [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
-- [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [ [ICSE](https://github.com/criszy/Troc) 23]
+- [Detecting Isolation Bugs via Transaction Oracle Construction](https://doi.org/10.5281/zenodo.7645649) [[ICSE](https://github.com/criszy/Troc) 23]
 - [Leopard: A Black-Box Approach for Efficiently Verifying Various Isolation Levels](https://ieeexplore.ieee.org/abstract/document/10184872) [ICDE 23]
 - [Viper: A Fast Snapshot Isolation Checker](https://dl.acm.org/doi/10.1145/3552326.3567492) [EuroSys 23]
 - [IsoVista: Black-box Checking Database Isolation Guarantees](https://www.vldb.org/pvldb/vol17/p4325-liu.pdf) [[VLDB](https://github.com/hengxin/IsoVista) 24]
 - [Plume: efficient and complete black-box checking of weak isolation levels](https://doi.org/10.1145/3689742) [OOPSLA 24]
 - [Detecting Isolation Anomalies in Relational DBMSs](https://dl.acm.org/doi/10.1145/3728953) [ISSTA 25]
 - [Boosting End-to-End Database Isolation Checking via Mini-Transactions](https://www.arxiv.org/abs/2504.02344) [ICDE 25]
-- [Boosting End-to-End Database Isolation Checking via Mini-Transactions](https://www.arxiv.org/abs/2504.02344) [ICDE 25]
 - [Vbox: efficient black-box serializability verification](http://arxiv.org/abs/2503.05163) [preprint]
-
-**Testing Other Systems:**
-- [Race Directed Random Testing of Concurrent Programs](https://dl.acm.org/doi/10.1145/1375581.1375584) [PLDI 08]
-- [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://dl.acm.org/doi/10.1145/3158134) [POPL 17]
-- [An Analysis of Network-Partitioning Failures in Cloud Systems](https://www.usenix.org/conference/osdi18/presentation/alquraan) [OSDI 18]
-- [Krace: Data Race Fuzzing for Kernel File Systems](https://ieeexplore.ieee.org/document/9152693/) [SP 20]
-- [Sound and Efficient Concurrency Bug Prediction](https://dl.acm.org/doi/10.1145/3468264.3468549) [ESEC/FSE 21]
-- [Demystifying and Checking Silent Semantic Violations in Large Distributed Systems](https://www.usenix.org/system/files/osdi22-lou-demystifying.pdf) [OSDI 22]
-- [Automatic Reliability Testing for Cluster Management Controllers](https://www.usenix.org/system/files/osdi22-sun.pdf) [OSDI 22]
-- [Greybox Fuzzing of Distributed Systems](https://dl.acm.org/doi/10.1145/3576915.3623097) [CCS 23]
-- [Ozz: identifying kernel out-of-order concurrency bugs with In-vivo memory access reordering](https://gts3.org/assets/papers/2024/jeong:ozz.pdf) [[SOSP](https://github.com/casys-kaist/ozz) 24]
-- [Blackbox fuzzing of distributed systems with multi-dimensional inputs and symmetry-based feedback pruning](https://dx.doi.org/10.14722/ndss.2025.241912) [[NDSS](https://dx.doi.org/10.14722/ndss.2025.241912) 25]
 - [Fast Verification of Strong Database Isolation](https://doi.org/10.14778/3785297.3785300) [[VLDB](https://github.com/CzxingcHen/VeriStrong) 25]
-- [Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems](https://www.usenix.org/system/files/atc25-dong.pdf) [ATC 25]
+- [Online Timestamp-based Transactional Isolation Checking of Database Systems](https://arxiv.org/abs/2504.01477) [ICDE 25]
 
-### Testing for a single SQL
+### SQL Correctness Testing
 
 - [Semantic fuzzing with zest](https://dl.acm.org/doi/10.1145/3293882.3330576) [ISSTA 19]
 - [Testing Database Engines via Pivoted Query Synthesis](https://www.usenix.org/system/files/osdi20-rigger.pdf) [[OSDI](https://www.usenix.org/conference/osdi20/presentation/rigger) 20]
-- [Detecting Optimization Bugs in Database Engines via Non-Optimizing Reference Engine Construction](https://dl.acm.org/doi/pdf/10.1145/3368089.3409710) [FSE 20]
 - [Detecting optimization bugs in database engines via non-optimizing reference engine construction](https://doi.org/10.1145/3368089.3409710) [FSE 20]
-- [Griffin : Grammar-Free DBMS Fuzzing](https://dl.acm.org/doi/abs/10.1145/3551349.3560431) [ASE 22]
+- [Griffin: Grammar-Free DBMS Fuzzing](https://dl.acm.org/doi/abs/10.1145/3551349.3560431) [ASE 22]
 - [Testing Database Engines via Query Plan Guidance](https://arxiv.org/pdf/2312.17510.pdf) [[ICSE](https://github.com/sqlancer/sqlancer/issues/641) 23]
 - [DynSQL: Stateful Fuzzing for Database Management Systems with Complex and Valid SQL Query Generation](https://www.usenix.org/system/files/sec23summer_60-jiang_zu_ming-prepub.pdf) [Security 23]
-- [Unicorn: detect runtime errors in time-series databases with hybrid input synthesis](https://dl.acm.org/doi/10.1145/3533767.3534364) [ISSTA 23]
 - [PINOLO: Detecting Logical Bugs in Database Management Systems with Approximate Query Synthesis](https://www.usenix.org/system/files/atc23-hao.pdf) [ATC 23]
 - [Detecting logic bugs in database engines via equivalent expression transformation](https://jzuming.github.io/paper/osdi24-jiang.pdf) [[OSDI](https://github.com/JZuming/EET) 24]
 - [Detecting metadata-related logic bugs in database systems via raw database construction](https://doi.org/10.14778/3659437.3659445) [VLDB 24]
 - [Keep it simple: testing databases via differential query plans](https://bajinsheng.github.io/assets/pdf/dqp_sigmod24.pdf) [[SIGMOD](https://github.com/sqlancer/sqlancer/issues/918) 24]
-- [Understanding and Reusing Test Suites Across Database Systems](https://doi.org/10.1145/3698829) [SIGMOD 24]
 - [SQLess: dialect-agnostic SQL query simplification](https://dl.acm.org/doi/10.1145/3650212.3680317) [ISSTA 24]
 - [SQLaser: detecting DBMS logic bugs with clause-guided fuzzing](http://arxiv.org/abs/2407.04294) [preprint]
 - [Automated discovery of test oracles for database management systems using LLMs](http://arxiv.org/abs/2510.06663) [preprint]
@@ -206,9 +183,6 @@ Other blogs and repos about isolation level anomalies.
 - [SRS: Detecting Logic Bugs of Join Implementation in DBMSs via Set Relation Synthesis](http://www.wingtecher.cn/blog/post/news-20250830) [SIGMOD 26]
 - [Detecting Join Bugs in Database Engines via Join Implication Reasoning](https://nus-test.github.io/publication/2026-sigmod-join-bugs/) [SIGMOD 26]
 - [EPSC: Testing Database Management Systems via Equivalent Prepared Statement Construction](http://www.wingtecher.com/blog/post/news-20260320) [SIGMOD 26]
-- [Towards a Unified Query Plan Representation](https://arxiv.org/abs/2408.07857) [ICDE 25]
-- [Dialect-Agnostic SQL Parsing via LLM-Based Segmentation](https://arxiv.org/abs/2603.16155) [SIGMOD 26]
-
 
 ### Performance Testing
 
@@ -216,16 +190,27 @@ Other blogs and repos about isolation level anomalies.
 - [Hulk: Exploring Data-Sensitive Performance Anomalies in DBMSs via Data-Driven Analysis](https://conf.researchr.org/details/issta-2025/issta-2025-papers/95/Hulk-Exploring-Data-Sensitive-Performance-Anomalies-in-DBMSs-via-Data-Driven-Analysi) [ISSTA 25]
 - [Finding Missed Optimizations in DBMSs through Unbalanced Short-Circuit Query Construction](http://www.wingtecher.com/blog/post/news-20260320) [SIGMOD 26]
 
-
-### Testing Non-Relational DBMSs
+### Non-Relational DBMS Testing
 
 - [Finding Logic Bugs in Graph-processing Systems via Graph-cutting](https://nus-test.github.io/publication/2025-sigmod-graphcutting/) [SIGMOD 25]
 - [VDBFuzz: Understanding and Detecting Crash Bugs in Vector Database Management Systems](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/97/VDBFuzz-Understanding-and-Detecting-Crash-Bugs-in-Vector-Database-Management-Systems) [ICSE 26]
 - [Dinkel: State-Aware and Granular Framework for Validating Graph Databases](https://arxiv.org/abs/2408.07525) [VLDB 26]
 - [ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems](https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/105/ACME-Automated-Clause-Mapping-Engine-for-Testing-Emerging-Database-Systems) [FSE 26]
+- [Unicorn: detect runtime errors in time-series databases with hybrid input synthesis](https://dl.acm.org/doi/10.1145/3533767.3534364) [ISSTA 23]
 
+### Test Infrastructure & Benchmark
 
-### Root Cause Analyze
+- [Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results](https://dl.acm.org/doi/10.1145/2807591.2807644) [SC 15]
+- [VeriBench: Analyzing the Performance of Database Systems with Verifiability](https://dl.acm.org/doi/10.14778/3598581.3598588) [VLDB 22]
+- [CDSBen: Benchmarking the Performance of Storage Services in Cloud-native Database System at ByteDance](https://www.vldb.org/pvldb/vol16/p3584-tang.pdf) [VLDB 23]
+- [DBPA: A Benchmark for Transactional Database Performance Anomalies](https://dl.acm.org/doi/abs/10.1145/3588926) [SIGMOD 23]
+- [DB-MAGS: Multi-Anomaly Data Generation System for Transactional Databases](https://www.vldb.org/pvldb/vol17/p4497-shen.pdf) [[VLDB](https://github.com/qifeng1128/DB-MAGS) 24]
+- [LST-Meter: Benchmarking Log-Structured Tables in the Cloud](https://arxiv.org/pdf/2305.01120.pdf) [SIGMOD 24]
+- [Understanding and Reusing Test Suites Across Database Systems](https://doi.org/10.1145/3698829) [SIGMOD 24]
+- [Towards a Unified Query Plan Representation](https://arxiv.org/abs/2408.07857) [ICDE 25]
+- [Dialect-Agnostic SQL Parsing via LLM-Based Segmentation](https://arxiv.org/abs/2603.16155) [SIGMOD 26]
+
+### Root Cause Analysis
 
 - [Towards Effective Bug Triage with Software Data Reduction Techniques](https://ieeexplore.ieee.org/document/6815966/) [TKDE 15]
 - [How are distributed bugs diagnosed and fixed through system logs?](https://linkinghub.elsevier.com/retrieve/pii/S0950584919302496) [Information and Software Technology 20]
@@ -242,11 +227,29 @@ Other blogs and repos about isolation level anomalies.
 - [When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection](https://dl.acm.org/doi/10.14778/3681954.3681980) [[VLDB](https://github.com/dsrhaslab/lazyfs) 24]
 - [Pisco: An Isolation Bug Case Reduction and Deduplication Framework](https://pure.ecnu.edu.cn/zh/publications/pisco-an-isolation-bug-case-reduction-and-deduplication-framework/) [VLDB 26]
 
+## Related: Non-DBMS System Testing
+
+Papers on testing concurrent/distributed systems beyond DBMSs, adjacent to the main theme.
+
+- [Race Directed Random Testing of Concurrent Programs](https://dl.acm.org/doi/10.1145/1375581.1375584) [PLDI 08]
+- [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://dl.acm.org/doi/10.1145/3158134) [POPL 17]
+- [An Analysis of Network-Partitioning Failures in Cloud Systems](https://www.usenix.org/conference/osdi18/presentation/alquraan) [OSDI 18]
+- [Krace: Data Race Fuzzing for Kernel File Systems](https://ieeexplore.ieee.org/document/9152693/) [SP 20]
+- [Sound and Efficient Concurrency Bug Prediction](https://dl.acm.org/doi/10.1145/3468264.3468549) [ESEC/FSE 21]
+- [Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching](http://arxiv.org/abs/2201.02944) [ICSE 22]
+- [Demystifying and Checking Silent Semantic Violations in Large Distributed Systems](https://www.usenix.org/system/files/osdi22-lou-demystifying.pdf) [OSDI 22]
+- [Automatic Reliability Testing for Cluster Management Controllers](https://www.usenix.org/system/files/osdi22-sun.pdf) [OSDI 22]
+- [Robust and Transferable Log-based Anomaly Detection](http://arxiv.org/abs/2102.11570) [SIGMOD 23]
+- [Greybox Fuzzing of Distributed Systems](https://dl.acm.org/doi/10.1145/3576915.3623097) [CCS 23]
+- [Ozz: identifying kernel out-of-order concurrency bugs with In-vivo memory access reordering](https://gts3.org/assets/papers/2024/jeong:ozz.pdf) [[SOSP](https://github.com/casys-kaist/ozz) 24]
+- [Blackbox fuzzing of distributed systems with multi-dimensional inputs and symmetry-based feedback pruning](https://dx.doi.org/10.14722/ndss.2025.241912) [[NDSS](https://dx.doi.org/10.14722/ndss.2025.241912) 25]
+- [Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems](https://www.usenix.org/system/files/atc25-dong.pdf) [ATC 25]
+
 ## Other Paper List with similar topics
 
 - [Recent Fuzzing Paper](https://wcventure.github.io/FuzzingPaper/)
-- [AP Paper](https://github.com/Wind-Gone/OLAP-Paper)
-- [AI4DB Paper](https://github.com/Wind-Gone/Ai4DB-Paper)
+- [AP Paper](https://github.com/Wind-Gone/awesome-olap-paper)
+- [AI4DB Paper](https://github.com/Wind-Gone/awesome-ai4db-paper)
 - [LLM4DB Paper](https://github.com/code4DB/LLM4DB)
 - [Awesome Database Learning](https://github.com/pingcap/awesome-database-learning)
 - [Readings in Database Systems](http://www.redbook.io/all-readings.html)
