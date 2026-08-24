@@ -146,6 +146,9 @@ Other blogs and repos about isolation level anomalies.
 - [Anomaly Pattern-guided Transaction Bug Testing in Relational Databases](http://arxiv.org/abs/2511.17377) [preprint]
 - [Addressing Test Flakiness: Practical Approaches in a Database-Reliant Industrial System](https://carolin-brandt.de/publications/vegelien-icseseip26.pdf) [ICSE 26]
 - [On the Flakiness of LLM-Generated Tests for Industrial and Open-Source Database Management Systems](https://arxiv.org/pdf/2601.08998) [ICSE 26]
+- [Coni: Detecting Database Connector Bugs via State-Aware Test Case Generation](https://conf.researchr.org/details/icse-2025/icse-2025-research-track/3/Coni-Detecting-Database-Connector-Bugs-via-State-Aware-Test-Case-Generation) [ICSE 25]
+- [Thanos: DBMS Bug Detection via Storage Engine Rotation Based Differential Testing](https://conf.researchr.org/details/icse-2025/icse-2025-research-track/15/Thanos-DBMS-Bug-Detection-via-Storage-Engine-Rotation-Based-Differential-Testing) [ICSE 25]
+- [DepState: Detecting Synchronization Failure Bugs in Distributed Database Management Systems](https://conf.researchr.org/details/issta-2025/issta-2025-papers/87/DepState-Detecting-Synchronization-Failure-Bugs-in-Distributed-Database-Management-S) [ISSTA 25]
 
 **Transaction Anomaly Detection:**
 
@@ -194,6 +197,32 @@ Other blogs and repos about isolation level anomalies.
 - [SQLess: dialect-agnostic SQL query simplification](https://dl.acm.org/doi/10.1145/3650212.3680317) [ISSTA 24]
 - [SQLaser: detecting DBMS logic bugs with clause-guided fuzzing](http://arxiv.org/abs/2407.04294) [preprint]
 - [Automated discovery of test oracles for database management systems using LLMs](http://arxiv.org/abs/2510.06663) [preprint]
+- [Detecting Schema-Related Logic Bugs in Relational DBMSs via Equivalent Database Construction](https://www.vldb.org/pvldb/volumes/18/paper/Detecting%20Schema-Related%20Logic%20Bugs%20in%20Relational%20DBMSs%20via%20Equivalent%20Database%20Construction) [VLDB 25]
+- [Semantic Conformance Testing of Relational DBMS](https://vldb.org/pvldb/volumes/18/paper/Semantic%20Conformance%20Testing%20of%20Relational%20DBMS) [VLDB 25]
+- [QTRAN: Extending Metamorphic-Oracle based Logical Bug Detection Techniques for Multiple-DBMS Dialect Support](https://conf.researchr.org/details/issta-2025/issta-2025-papers/33/QTRAN-Extending-Metamorphic-Oracle-based-Logical-Bug-Detection-Techniques-for-Multip) [ISSTA 25]
+- [Constant Optimization Driven Database System Testing](https://arxiv.org/abs/2501.11252) [SIGMOD 25]
+- [Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs](https://nus-test.github.io/publication/2025-sigmod-aei/) [SIGMOD 25]
+- [Detecting Logic Bugs in DBMSs via Equivalent Data Construction](http://www.wingtecher.cn/blog/post/news-20250830) [SIGMOD 26]
+- [SRS: Detecting Logic Bugs of Join Implementation in DBMSs via Set Relation Synthesis](http://www.wingtecher.cn/blog/post/news-20250830) [SIGMOD 26]
+- [Detecting Join Bugs in Database Engines via Join Implication Reasoning](https://nus-test.github.io/publication/2026-sigmod-join-bugs/) [SIGMOD 26]
+- [EPSC: Testing Database Management Systems via Equivalent Prepared Statement Construction](http://www.wingtecher.com/blog/post/news-20260320) [SIGMOD 26]
+- [Towards a Unified Query Plan Representation](https://arxiv.org/abs/2408.07857) [ICDE 25]
+- [Dialect-Agnostic SQL Parsing via LLM-Based Segmentation](https://arxiv.org/abs/2603.16155) [SIGMOD 26]
+
+
+### Performance Testing
+
+- [PUPPY: Finding Performance Degradation Bugs in DBMSs via Limited-Optimization Plan Construction](https://conf.researchr.org/details/icse-2025/icse-2025-research-track/1/Puppy-Finding-Performance-Degradation-Bugs-in-DBMSs-via-Limited-Optimization-Plan-Co) [ICSE 25]
+- [Hulk: Exploring Data-Sensitive Performance Anomalies in DBMSs via Data-Driven Analysis](https://conf.researchr.org/details/issta-2025/issta-2025-papers/95/Hulk-Exploring-Data-Sensitive-Performance-Anomalies-in-DBMSs-via-Data-Driven-Analysi) [ISSTA 25]
+- [Finding Missed Optimizations in DBMSs through Unbalanced Short-Circuit Query Construction](http://www.wingtecher.com/blog/post/news-20260320) [SIGMOD 26]
+
+
+### Testing Non-Relational DBMSs
+
+- [Finding Logic Bugs in Graph-processing Systems via Graph-cutting](https://nus-test.github.io/publication/2025-sigmod-graphcutting/) [SIGMOD 25]
+- [VDBFuzz: Understanding and Detecting Crash Bugs in Vector Database Management Systems](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/97/VDBFuzz-Understanding-and-Detecting-Crash-Bugs-in-Vector-Database-Management-Systems) [ICSE 26]
+- [Dinkel: State-Aware and Granular Framework for Validating Graph Databases](https://arxiv.org/abs/2408.07525) [VLDB 26]
+- [ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems](https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/105/ACME-Automated-Clause-Mapping-Engine-for-Testing-Emerging-Database-Systems) [FSE 26]
 
 
 ### Root Cause Analyze
@@ -211,6 +240,7 @@ Other blogs and repos about isolation level anomalies.
 - [LEAN: simplifying concurrency bug reproduction via replay-supported execution reduction](https://dl.acm.org/doi/10.1145/2398857.2384649) [OOPSLA 12]
 - [R^3: Record-Replay-Retroaction for Database-Backed Applications](https://www.vldb.org/pvldb/vol16/p3085-li.pdf) [VLDB 23]
 - [When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection](https://dl.acm.org/doi/10.14778/3681954.3681980) [[VLDB](https://github.com/dsrhaslab/lazyfs) 24]
+- [Pisco: An Isolation Bug Case Reduction and Deduplication Framework](https://pure.ecnu.edu.cn/zh/publications/pisco-an-isolation-bug-case-reduction-and-deduplication-framework/) [VLDB 26]
 
 ## Other Paper List with similar topics
 
